@@ -13,7 +13,7 @@ Host filtered metagenomic sequences can be found on ENA archive PRJEB40990.
 
 _Please find information of parameters and modules used in Metagenomic_pipeline.sh_
 
-## Binning
+## Binning and MAG curation
 After assembly of host filtered reads were contigs processed in Anvio. 
 The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tutorial-v2/. Briefly; 
 * anvi’o was used to profile the scaffolds using Prodigal/v2.6.338 with default parameters to identify genes and HMMER/v.3.339 to identify genes matching to archaeal, protista (based on http://merenlab.org/delmont-euk-scgs), and bacterial single-copy core gene collections. Also, ribosomal RNA based HMMs were identified (based on https://github.com/tseemann/barrnap). The HMMs were used to determine completeness of  metagenome assembled genomes (MAGs); 
