@@ -24,7 +24,7 @@ The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tuto
 
 _Please find information of parameters and modules used in Anvio_pipeline.sh_
 
-_MAGs will be publicaly available on: __figshare__ upon acceptance
+_MAGs will be publicaly available on: __figshare__ upon acceptance_
 
 ## Phylogenomic of _Mycoplasma_
 
