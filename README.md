@@ -13,12 +13,19 @@ Host filtered metagenomic sequences can be found on ENA archive PRJEB40990.
 
 ## Binning
 After assembly of host filtered reads were contigs:
-• Processed in Anvio, following their guidelines: http://merenlab.org/2016/06/22/anvio-tutorial-v2/
-• Binned automatically using CONCOCT in Anvio.
-• Bin and MAGs where curated, following guideline from Veronika Kivenson: http://merenlab.org/2017/05/11/anvi-refine-by-veronika/
-• Contigs were annotated, using Kaiju
-• SCG were annotated based HMMs, using HMMER
-• Functional Annotations were carried out, using COG, PFAM, KEGG (GhostKoala)
+* Processed in Anvio. The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tutorial-v2/. 
+ ** (1) anvi’o was used to profile the scaffolds using Prodigal/v2.6.338 with default parameters to identify genes 
+    and HMMER/v.3.339 to identify genes matching to archaeal, protista (based on http://merenlab.org/delmont-euk-scgs),
+    and bacterial single-copy core gene collections. Also, ribosomal RNA based HMMs were identified (based on https://github.com/tseemann/barrnap). 
+    The HMMs were used to determine completeness of  metagenome assembled genomes (MAGs); 
+ ** (2) Kaiju 41 was used with NCBI’s non-redundant protein database ‘nr’ to infer the taxonomy of genes (as described in http://merenlab.org/2016/06/18/importing-taxonomy/); 
+ ** (3) we mapped short reads from the metagenomic set to the scaffolds using BWA/v0.7.1596 (minimum identity of 95%) 
+     and stored the recruited reads as BAM files using samtools42; 
+ ** (4) anvi'o profiled each BAM file to estimate the coverage and detection statistics of each scaffold, 
+     and combined mapping profiles into a merged profile database for each metagenomic set. Contigs were binned automatically, using CONCOCT,
+     by constraining the number of clusters per metagenomic set to 10.
+ ** (5) Bin and MAGs where curated, following guideline from Veronika Kivenson: http://merenlab.org/2017/05/11/anvi-refine-by-veronika/
+ ** (6) Functional Annotations were carried out, using COG, PFAM, KEGG (GhostKoala)
 
 ## Metabolic Reconstruction, using RAST
 
