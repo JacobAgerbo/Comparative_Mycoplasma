@@ -24,7 +24,7 @@ The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tuto
 
 _Please find information of parameters and modules used in Anvio_pipeline.sh_
 
-_MAGs will be publicaly available at: __10.6084/m9.figshare.13019477___
+_MAGs will be publicaly available on: __figshare__ upon acceptance
 
 ## Comparative Genomics of _Mycoplasma_
 * Curated MAGs and external genomes were analysed, using comparative genomics: http://merenlab.org/2016/11/08/pangenomics-v2/
@@ -41,4 +41,4 @@ _MAGs will be publicaly available at: __10.6084/m9.figshare.13019477___
 * In Gephi were only subsystem classified to Amino Acid metabolism kept for this analysis
 * MAGs, Genomes, and RAST system were analysed, using Force Atlas 2 algorithm
 * To confirm our analysis we did enrichment analysis, using anvi’o pipeline http://merenlab.org/2016/11/08/pangenomics-v2/
-  * Summary of this is available at: __10.6084/m9.figshare.13019543__
+  * Summary of this is available on: __figshare__ upon acceptance
