@@ -21,9 +21,19 @@ The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tuto
 * we mapped short reads from the metagenomic set to the scaffolds using BWA/v0.7.1596 (minimum identity of 95%) and stored the recruited reads as BAM files using samtools 
 * anvi'o profiled each BAM file to estimate the coverage and detection statistics of each scaffold, and combined mapping profiles into a merged profile database for each metagenomic set. Contigs were binned automatically, using CONCOCT, by constraining the number of clusters per metagenomic set to 10.
 * Bin and MAGs where curated, following guideline from Veronika Kivenson: http://merenlab.org/2017/05/11/anvi-refine-by-veronika/
-* Functional Annotations were carried out, using COG, PFAM, KEGG (GhostKoala)
 
 _Please find information of parameters and modules used in Anvio_pipeline.sh_
 
-## Metabolic Reconstruction, using RAST
+## Comparative Genomics of _Mycoplasma_
+* Curated MAGs and external genomes were analysed, using comparative genomics: http://merenlab.org/2016/11/08/pangenomics-v2/
+* 
 
+## Metabolic Reconstruction, using RAST
+* Functional Annotations were carried out, using COG, PFAM, KEGG (GhostKoala)
+* MAGs were recovered from Anvio DB and uploaded to RAST: https://rast.nmpdr.org/rast.cgi for subsystem annotation
+* MAGs and external genomes were downloaded from RAST and concatenated, using pandas (see RAST_merge.py)
+* RAST systems of all MAGs and genomes were imported to Gephi
+* Genomes and MAGs were classified according to have been reported in intestinal environment previously or not
+* In Gephi were only subsystem classified to Amino Acid metabolism kept for this analysis
+* MAGs, Genomes, and RAST system were analysed, using Force Atlas 2 algorithm
+* To confirm our analysis we did enrichment analysis, using anvi’o pipeline http://merenlab.org/2016/11/08/pangenomics-v2/
