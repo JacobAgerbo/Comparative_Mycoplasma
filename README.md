@@ -10,6 +10,7 @@ Atlantic Salmon|n = 8|PE100
 European Whitefish|n = 1 (three experimental replicates)|PE100
 
 Host filtered metagenomic sequences can be found on ENA archive PRJEB40990. 
+Please find information of parameters and modules used in Metagenomic_pipeline.sh
 
 ## Binning
 After assembly of host filtered reads were contigs processed in Anvio. 
@@ -20,6 +21,8 @@ The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tuto
 * anvi'o profiled each BAM file to estimate the coverage and detection statistics of each scaffold, and combined mapping profiles into a merged profile database for each metagenomic set. Contigs were binned automatically, using CONCOCT, by constraining the number of clusters per metagenomic set to 10.
 * Bin and MAGs where curated, following guideline from Veronika Kivenson: http://merenlab.org/2017/05/11/anvi-refine-by-veronika/
 * Functional Annotations were carried out, using COG, PFAM, KEGG (GhostKoala)
+
+Please find information of parameters and modules used in Anvio_pipeline.sh
 
 ## Metabolic Reconstruction, using RAST
 
