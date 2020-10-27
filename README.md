@@ -2,10 +2,12 @@
 Genome-resolved metagenomics suggests a mutualistic 2 relationship between Mycoplasma and salmonid hosts
 
 Metagenomic pipeline were performed each individual host seperately, inclduing: 
+
 -|Host|No. individual|Seq Chemistry|-
 -|Rainbow Trout|n =5|  PE150|-
 -|Atlantic Salmon|n = 8|PE100|-
-• European Whitefish (n = 1, but three experimental replicates)
+-|European Whitefish|n = 1 (three experimental replicates)|PE100|-
+
 Host filtered metagenomic sequences can be found on ENA archive PRJEB40990. 
 
 ## Binning
