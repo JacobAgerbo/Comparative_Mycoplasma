@@ -26,6 +26,8 @@ _Please find information of parameters and modules used in Anvio_pipeline.sh_
 
 _MAGs will be publicaly available on: __figshare__ upon acceptance
 
+## Phylogenomic of _Mycoplasma_
+
 ## Comparative Genomics of _Mycoplasma_
 * Curated MAGs and external genomes were analysed, using comparative genomics: http://merenlab.org/2016/11/08/pangenomics-v2/
 * Similarities of each amino acid sequence in every genome were calculated against every other amino acid sequence across all genomes, using blastp. minbit heuristics were implemented to eliminate weak matches between two amino acid sequences
