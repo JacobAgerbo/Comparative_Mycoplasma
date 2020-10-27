@@ -9,7 +9,8 @@ Rainbow Trout|n =5|  PE150
 Atlantic Salmon|n = 8|PE100
 European Whitefish|n = 1 (three experimental replicates)|PE100
 
-Host filtered metagenomic sequences can be found on ENA archive PRJEB40990. 
+Host filtered metagenomic sequences can be found on ENA archive PRJEB40990.
+
 _Please find information of parameters and modules used in Metagenomic_pipeline.sh_
 
 ## Binning
