@@ -24,9 +24,13 @@ The subsequent workflow is outlined at http://merenlab.org/2016/06/22/anvio-tuto
 
 _Please find information of parameters and modules used in Anvio_pipeline.sh_
 
+_MAGs will be publicaly available at: __10.6084/m9.figshare.13019477___
+
 ## Comparative Genomics of _Mycoplasma_
 * Curated MAGs and external genomes were analysed, using comparative genomics: http://merenlab.org/2016/11/08/pangenomics-v2/
-* 
+* Similarities of each amino acid sequence in every genome were calculated against every other amino acid sequence across all genomes, using blastp. minbit heuristics were implemented to eliminate weak matches between two amino acid sequences
+* The MCL algorithms were used to identify gene clusters in amino acid sequence similarity search results
+* Euclidean distance and ward linkage were used to organise gene clusters and genomes. Average Nucleotide Identity (ANI) was calculated, using PyANI
 
 ## Metabolic Reconstruction, using RAST
 * Functional Annotations were carried out, using COG, PFAM, KEGG (GhostKoala)
@@ -37,3 +41,4 @@ _Please find information of parameters and modules used in Anvio_pipeline.sh_
 * In Gephi were only subsystem classified to Amino Acid metabolism kept for this analysis
 * MAGs, Genomes, and RAST system were analysed, using Force Atlas 2 algorithm
 * To confirm our analysis we did enrichment analysis, using anvi’o pipeline http://merenlab.org/2016/11/08/pangenomics-v2/
+  * Summary of this is available at: __10.6084/m9.figshare.13019543__
