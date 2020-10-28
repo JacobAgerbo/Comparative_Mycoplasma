@@ -1,0 +1,58 @@
+---
+title: "Map and abundance plot"
+author: "Jacob Agerbo Rasmussen"
+date: "10/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Load dependencies
+```{r cars}
+library(ggplot2)
+library(grid)
+library(maps)
+library(ggmap)
+library(wesanderson)
+library(reshape2)
+# Create datasets
+## Salmonids
+data <- read.csv("Relative_abbundance.csv", sep = ";")
+d <- cbind(data$Mycoplasma,data$Others)
+colnames(d) <- c("Mycoplasma", "Others")
+row.names(d) <- data$Sample
+
+d <- melt(d)
+d$value <- d$value*100
+#### Plot stacked barplot
+#pdf("Figure1_Abbundance.pdf", width = 9, height = 3)
+ggplot() + geom_bar(aes(y = value, 
+                        x = Var1, 
+                        fill = Var2), 
+                    data = d, stat="identity") + 
+  theme_classic() + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Relative abbundance across hosts") +
+  xlab("Samples") + ylab("Relative Abbundance (%)") + 
+  theme(legend.position="none") +
+  scale_fill_grey() + coord_flip() 
+#dev.off()
+
+
+
+
+#### Sample map
+#pdf("Figure1_Map.pdf", width = 10, height = 10)
+p <- ggplot() + geom_polygon(data = data, aes(x = Long,y = Lat)) + 
+  geom_path(data = data,aes(x = Long,y = Lat),colour = "grey70",size=0.1) + 
+  labs(x = "Longitude", y = "Latitude") +
+  borders("world", colour="black", fill="gray70") + coord_fixed(xlim=c(4, 19), ylim=c(52, 69)) + 
+  theme(panel.background = element_rect(fill = 'white'),
+        panel.grid.major = element_blank(),panel.grid.minor = element_blank(),
+        axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank())
+
+p + geom_count(data=data, aes(Long, Lat, colour=Host), alpha=.8) +
+  scale_colour_manual(values=c('darkorchid4', 'salmon'))
+#dev.off()
+```
