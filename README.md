@@ -1,4 +1,5 @@
 # Genome-resolved metagenomics suggests a mutualistic relationship between Mycoplasma and salmonid hosts
+_Rasmussen et al. 2020b_
 Metagenomic pipeline were performed each individual host seperately, inclduing: 
 
 Host|No. individual|Seq Chemistry
