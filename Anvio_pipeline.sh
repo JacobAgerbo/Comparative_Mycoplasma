@@ -1,6 +1,10 @@
-#-----------------------------------------------------------------#
-#      	Bin and curate salmonid related Mycoplasma MAGs           #
-#-----------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------------#
+#      ---------------Bin and curate salmonid related Mycoplasma MAGs---------------            #
+#-----------------------------------------------------------------------------------------------#
+#
+# It should be noted that this is not a full functional script, but more a list of parameters and modules used to obtain this.
+# Great guidelines have been made thanks to amazing work of Meren Lab: http://merenlab.org/
+#
 # If needed then you can install anvio, using conda environment by following this guideline: http://merenlab.org/2016/06/26/installation-v2/
 ## for mac:
 # first get a copy of the following file (if you get a "command not found"
