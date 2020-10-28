@@ -1,0 +1,394 @@
+Category,Subcategory,Subsystem,Role,Features
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Cofactors, Vitamins, Prosthetic Groups, Pigments - no subcategory",Thiamin biosynthesis,tRNA S(4)U 4-thiouridine synthase (former ThiI),fig|1246955.5.peg.218
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism in plants",FMN adenylyltransferase (EC 2.7.7.2),fig|1246955.5.peg.193
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism in plants",FIG000859: hypothetical protein YebC,fig|1246955.5.peg.609
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism in plants",tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61),fig|1246955.5.peg.125
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism in plants",tRNA pseudouridine synthase B (EC 4.2.1.70),fig|1246955.5.peg.191
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism in plants",Riboflavin kinase (EC 2.7.1.26),fig|1246955.5.peg.193
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD",riboflavin to FAD,FMN adenylyltransferase (EC 2.7.7.2),fig|1246955.5.peg.193
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD",riboflavin to FAD,Riboflavin kinase (EC 2.7.1.26),fig|1246955.5.peg.193
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism",FMN adenylyltransferase (EC 2.7.7.2),fig|1246955.5.peg.193
+"Cofactors, Vitamins, Prosthetic Groups, Pigments","Riboflavin, FMN, FAD","Riboflavin, FMN and FAD metabolism",Riboflavin kinase (EC 2.7.1.26),fig|1246955.5.peg.193
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",NAD and NADP,NAD and NADP cofactor biosynthesis global,Nicotinate phosphoribosyltransferase (EC 2.4.2.11),fig|1246955.5.peg.229
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",NAD and NADP,NAD and NADP cofactor biosynthesis global,"Ribosyl nicotinamide transporter, PnuC-like",fig|1246955.5.peg.376
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",NAD and NADP,NAD and NADP cofactor biosynthesis global,Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18),fig|1246955.5.peg.147
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",NAD and NADP,NAD and NADP cofactor biosynthesis global,Nicotinamidase (EC 3.5.1.19),fig|1246955.5.peg.312
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",NAD and NADP,NAD and NADP cofactor biosynthesis global,NAD synthetase (EC 6.3.1.5),fig|1246955.5.peg.608
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",Folate and pterines,Folate biosynthesis cluster,Cell division protein FtsH (EC 3.4.24.-),fig|1246955.5.peg.795
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",Folate and pterines,Folate biosynthesis cluster,tRNA(Ile)-lysidine synthetase (EC 6.3.4.19),fig|1246955.5.peg.796
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",Folate and pterines,Folate biosynthesis cluster,Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8),fig|1246955.5.peg.130
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",Lipoic acid,Lipoic acid metabolism,Lipoate-protein ligase A,fig|1246955.5.peg.371
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",Coenzyme A,Coenzyme A Biosynthesis,Dephospho-CoA kinase (EC 2.7.1.24),fig|1246955.5.peg.437
+"Cofactors, Vitamins, Prosthetic Groups, Pigments",Coenzyme A,Coenzyme A Biosynthesis,"Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)",fig|1246955.5.peg.373
+Cell Wall and Capsule,Cell Wall and Capsule - no subcategory,YjeE,"TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA",fig|1246955.5.peg.10
+Cell Wall and Capsule,Cell Wall and Capsule - no subcategory,YjeE,"TsaE protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA",fig|1246955.5.peg.11
+"Virulence, Disease and Defense",Resistance to antibiotics and toxic compounds,Copper homeostasis,Copper-translocating P-type ATPase (EC 3.6.3.4),fig|1246955.5.peg.317
+"Virulence, Disease and Defense",Resistance to antibiotics and toxic compounds,Resistance to fluoroquinolones,DNA gyrase subunit B (EC 5.99.1.3),"fig|1246955.5.peg.639, fig|1246955.5.peg.640"
+"Virulence, Disease and Defense",Resistance to antibiotics and toxic compounds,Resistance to fluoroquinolones,DNA gyrase subunit A (EC 5.99.1.3),fig|1246955.5.peg.514
+"Virulence, Disease and Defense",Resistance to antibiotics and toxic compounds,Resistance to fluoroquinolones,Topoisomerase IV subunit B (EC 5.99.1.-),fig|1246955.5.peg.97
+"Virulence, Disease and Defense",Resistance to antibiotics and toxic compounds,Resistance to fluoroquinolones,Topoisomerase IV subunit A (EC 5.99.1.-),fig|1246955.5.peg.770
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins),SSU ribosomal protein S7p (S5e),fig|1246955.5.peg.781
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins),Translation elongation factor G,fig|1246955.5.peg.780
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins),Translation elongation factor Tu,fig|1246955.5.peg.746
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins),SSU ribosomal protein S12p (S23e),fig|1246955.5.peg.782
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in DNA transcription,DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6),fig|1246955.5.peg.529
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in DNA transcription,DNA-directed RNA polymerase beta subunit (EC 2.7.7.6),fig|1246955.5.peg.530
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins),LSU ribosomal protein L35p,fig|1246955.5.peg.112
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins),Translation initiation factor 3,fig|1246955.5.peg.113
+"Virulence, Disease and Defense",Invasion and intracellular resistance,Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins),LSU ribosomal protein L20p,fig|1246955.5.peg.111
+Potassium metabolism,Potassium metabolism - no subcategory,Potassium homeostasis,Trk system potassium uptake protein TrkA,"fig|1246955.5.peg.507, fig|1246955.5.peg.507"
+Potassium metabolism,Potassium metabolism - no subcategory,Potassium homeostasis,Large-conductance mechanosensitive channel,fig|1246955.5.peg.149
+Miscellaneous,Miscellaneous - no subcategory,Phosphoglycerate mutase protein family,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",fig|1246955.5.peg.618
+Membrane Transport,ABC transporters,ABC transporter oligopeptide (TC 3.A.1.5.1),Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1),"fig|1246955.5.peg.257, fig|1246955.5.peg.265"
+Membrane Transport,ABC transporters,ABC transporter oligopeptide (TC 3.A.1.5.1),Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1),"fig|1246955.5.peg.256, fig|1246955.5.peg.258, fig|1246955.5.peg.264, fig|1246955.5.peg.266"
+Membrane Transport,ABC transporters,ABC transporter oligopeptide (TC 3.A.1.5.1),Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1),fig|1246955.5.peg.267
+Membrane Transport,ABC transporters,ABC transporter oligopeptide (TC 3.A.1.5.1),"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",fig|1246955.5.peg.263
+Membrane Transport,Protein translocation across cytoplasmic membrane,Bacterial signal recognition particle (SRP),"Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)",fig|1246955.5.peg.91
+Membrane Transport,Protein translocation across cytoplasmic membrane,Bacterial signal recognition particle (SRP),Signal recognition particle receptor protein FtsY (=alpha subunit) (TC 3.A.5.1.1),fig|1246955.5.peg.60
+Membrane Transport,Cation transporters,Magnesium transport,Mg/Co/Ni transporter MgtE,fig|1246955.5.peg.410
+Membrane Transport,Cation transporters,Copper Transport System,Copper-translocating P-type ATPase (EC 3.6.3.4),fig|1246955.5.peg.317
+Membrane Transport,Uni- Sym- and Antiporters,"NhaA, NhaD and Sodium-dependent phosphate transporters",Sodium-dependent phosphate transporter,fig|1246955.5.peg.731
+Membrane Transport,Membrane Transport - no subcategory,ECF class transporters,Substrate-specific component FolT of folate ECF transporter,fig|1246955.5.peg.616
+Membrane Transport,Membrane Transport - no subcategory,ECF class transporters,Transmembrane component of general energizing module of ECF transporters,fig|1246955.5.peg.773
+Membrane Transport,Membrane Transport - no subcategory,ECF class transporters,ATPase component of general energizing module of ECF transporters,"fig|1246955.5.peg.774, fig|1246955.5.peg.775"
+Membrane Transport,Membrane Transport - no subcategory,Ton and Tol transport systems,TolA protein,"fig|1246955.5.peg.106, fig|1246955.5.peg.142, fig|1246955.5.peg.282, fig|1246955.5.peg.511, fig|1246955.5.peg.665, fig|1246955.5.peg.669, fig|1246955.5.peg.673, fig|1246955.5.peg.699, fig|1246955.5.peg.701, fig|1246955.5.peg.732, fig|1246955.5.peg.736"
+RNA Metabolism,RNA processing and modification,RNA pseudouridine syntheses,Ribosomal small subunit pseudouridine synthase A (EC 4.2.1.70),"fig|1246955.5.peg.707, fig|1246955.5.peg.710"
+RNA Metabolism,RNA processing and modification,RNA pseudouridine syntheses,Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70),fig|1246955.5.peg.92
+RNA Metabolism,RNA processing and modification,RNA pseudouridine syntheses,Ribosomal large subunit pseudouridine synthase C (EC 4.2.1.70),fig|1246955.5.peg.294
+RNA Metabolism,RNA processing and modification,RNA pseudouridine syntheses,Ribosomal large subunit pseudouridine synthase B (EC 4.2.1.70),fig|1246955.5.peg.148
+RNA Metabolism,RNA processing and modification,RNA pseudouridine syntheses,tRNA pseudouridine synthase B (EC 4.2.1.70),fig|1246955.5.peg.191
+RNA Metabolism,RNA processing and modification,Ribonucleases in Bacillus,Ribonuclease J1 (endonuclease and 5' exonuclease),fig|1246955.5.peg.407
+RNA Metabolism,RNA processing and modification,Ribonucleases in Bacillus,Ribonuclease HII (EC 3.1.26.4),fig|1246955.5.peg.776
+RNA Metabolism,RNA processing and modification,Ribonucleases in Bacillus,Ribonuclease J2 (endoribonuclease in RNA processing),fig|1246955.5.peg.155
+RNA Metabolism,RNA processing and modification,Ribonucleases in Bacillus,Ribonuclease HIII (EC 3.1.26.4),fig|1246955.5.peg.38
+RNA Metabolism,RNA processing and modification,"RNA processing and degradation, bacterial",3'-to-5' exoribonuclease RNase R,fig|1246955.5.peg.321
+RNA Metabolism,RNA processing and modification,"RNA processing and degradation, bacterial","FIG146085: 3'-to-5' oligoribonuclease A, Bacillus type","fig|1246955.5.peg.336, fig|1246955.5.peg.337, fig|1246955.5.peg.338"
+RNA Metabolism,RNA processing and modification,"RNA processing and degradation, bacterial",Ribonuclease III (EC 3.1.26.3),fig|1246955.5.peg.712
+RNA Metabolism,RNA processing and modification,RNA methylation,FIG011178: rRNA methylase,fig|1246955.5.peg.743
+RNA Metabolism,RNA processing and modification,RNA methylation,tRNA (adenine37-N(6))-methyltransferase TrmN6 (EC 2.1.1.223),fig|1246955.5.peg.322
+RNA Metabolism,RNA processing and modification,RNA methylation,Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-),fig|1246955.5.peg.250
+RNA Metabolism,RNA processing and modification,RNA methylation,SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC 2.1.1.182),fig|1246955.5.peg.33
+RNA Metabolism,RNA processing and modification,RNA methylation,23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-),fig|1246955.5.peg.633
+RNA Metabolism,RNA processing and modification,RNA methylation,tRNA (guanine46-N7-)-methyltransferase (EC 2.1.1.33),fig|1246955.5.peg.513
+RNA Metabolism,RNA processing and modification,RNA methylation,tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61),fig|1246955.5.peg.125
+RNA Metabolism,RNA processing and modification,RNA methylation,tRNA (Guanine37-N1) -methyltransferase (EC 2.1.1.31),fig|1246955.5.peg.5
+RNA Metabolism,RNA processing and modification,RNA methylation,tRNA (cytidine(34)-2'-O)-methyltransferase (EC 2.1.1.207),fig|1246955.5.peg.744
+RNA Metabolism,RNA processing and modification,RNA methylation,LSU m3Psi1915 methyltransferase RlmH,fig|1246955.5.peg.534
+RNA Metabolism,RNA processing and modification,RNA methylation,rRNA small subunit 7-methylguanosine (m7G) methyltransferase GidB,fig|1246955.5.peg.364
+RNA Metabolism,RNA processing and modification,RNA methylation,16S rRNA (guanine(966)-N(2))-methyltransferase (EC 2.1.1.171),fig|1246955.5.peg.427
+RNA Metabolism,RNA processing and modification,16S rRNA modification within P site of ribosome,Cell division protein MraZ,fig|1246955.5.peg.356
+RNA Metabolism,RNA processing and modification,16S rRNA modification within P site of ribosome,rRNA small subunit methyltransferase H,fig|1246955.5.peg.355
+RNA Metabolism,RNA processing and modification,16S rRNA modification within P site of ribosome,rRNA small subunit methyltransferase I,fig|1246955.5.peg.748
+RNA Metabolism,RNA processing and modification,Ribonuclease H,Ribonuclease HII (EC 3.1.26.4),fig|1246955.5.peg.776
+RNA Metabolism,RNA processing and modification,Ribonuclease H,Ribonuclease HIII (EC 3.1.26.4),fig|1246955.5.peg.38
+RNA Metabolism,RNA processing and modification,mnm5U34 biosynthesis bacteria,GTPase and tRNA-U34 5-formylation enzyme TrmE,fig|1246955.5.peg.31
+RNA Metabolism,RNA processing and modification,mnm5U34 biosynthesis bacteria,tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA,fig|1246955.5.peg.533
+RNA Metabolism,RNA processing and modification,mnm5U34 biosynthesis bacteria,tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61),fig|1246955.5.peg.125
+RNA Metabolism,RNA processing and modification,mnm5U34 biosynthesis bacteria,"Cysteine desulfurase (EC 2.8.1.7), SufS subfamily",fig|1246955.5.peg.144
+RNA Metabolism,RNA processing and modification,tRNA processing,Ribonuclease P protein component (EC 3.1.26.5),fig|1246955.5.peg.788
+RNA Metabolism,RNA processing and modification,tRNA processing,tRNA(Ile)-lysidine synthetase (EC 6.3.4.19),fig|1246955.5.peg.796
+RNA Metabolism,RNA processing and modification,tRNA processing,tRNA pseudouridine synthase B (EC 4.2.1.70),fig|1246955.5.peg.191
+RNA Metabolism,Transcription,"Transcription initiation, bacterial sigma factors",RNA polymerase sigma factor RpoD,fig|1246955.5.peg.450
+RNA Metabolism,Transcription,RNA polymerase bacterial,DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6),fig|1246955.5.peg.55
+RNA Metabolism,Transcription,RNA polymerase bacterial,DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6),fig|1246955.5.peg.529
+RNA Metabolism,Transcription,RNA polymerase bacterial,DNA-directed RNA polymerase beta subunit (EC 2.7.7.6),fig|1246955.5.peg.530
+RNA Metabolism,Transcription,Transcription factors bacterial,Transcription termination protein NusB,fig|1246955.5.peg.143
+RNA Metabolism,Transcription,Transcription factors bacterial,Transcription accessory protein (S1 RNA-binding domain),fig|1246955.5.peg.535
+RNA Metabolism,Transcription,Transcription factors bacterial,Transcription elongation factor GreA,fig|1246955.5.peg.129
+RNA Metabolism,Transcription,Transcription factors bacterial,Transcription antitermination protein NusG,fig|1246955.5.peg.428
+RNA Metabolism,Transcription,Transcription factors bacterial,Transcription termination protein NusA,fig|1246955.5.peg.659
+Nucleosides and Nucleotides,Purines,Purine conversions,Purine nucleoside phosphorylase (EC 2.4.2.1),fig|1246955.5.peg.314
+Nucleosides and Nucleotides,Purines,Purine conversions,Adenylate kinase (EC 2.7.4.3),fig|1246955.5.peg.45
+Nucleosides and Nucleotides,Purines,Purine conversions,Deoxyguanosine kinase (EC 2.7.1.113),"fig|1246955.5.peg.379, fig|1246955.5.peg.380"
+Nucleosides and Nucleotides,Purines,Purine conversions,Deoxyadenosine kinase (EC 2.7.1.76),"fig|1246955.5.peg.379, fig|1246955.5.peg.380"
+Nucleosides and Nucleotides,Purines,Purine conversions,Adenine phosphoribosyltransferase (EC 2.4.2.7),fig|1246955.5.peg.656
+Nucleosides and Nucleotides,Purines,Purine conversions,Guanylate kinase (EC 2.7.4.8),fig|1246955.5.peg.190
+Nucleosides and Nucleotides,Purines,Purine conversions,Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8),fig|1246955.5.peg.130
+Nucleosides and Nucleotides,Nucleosides and Nucleotides - no subcategory,Adenosyl nucleosidases,Purine nucleoside phosphorylase (EC 2.4.2.1),fig|1246955.5.peg.314
+Nucleosides and Nucleotides,Detoxification,Housecleaning nucleoside triphosphate pyrophosphatases,Dimeric dUTPase (EC 3.6.1.23),fig|1246955.5.peg.274
+Protein Metabolism,Protein folding,Protein chaperones,Heat shock protein GrpE,fig|1246955.5.peg.272
+Protein Metabolism,Protein folding,Protein chaperones,Chaperone protein DnaK,fig|1246955.5.peg.273
+Protein Metabolism,Protein folding,Protein chaperones,Chaperone protein DnaJ,fig|1246955.5.peg.670
+Protein Metabolism,Protein folding,Protein chaperones,ClpB protein,"fig|1246955.5.peg.84, fig|1246955.5.peg.326"
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Val",Valyl-tRNA synthetase (EC 6.1.1.9),fig|1246955.5.peg.499
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Met",Methionyl-tRNA synthetase (EC 6.1.1.10),fig|1246955.5.peg.323
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Ile",Isoleucyl-tRNA synthetase (EC 6.1.1.5),fig|1246955.5.peg.199
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Arg",Arginyl-tRNA synthetase (EC 6.1.1.19),fig|1246955.5.peg.635
+Protein Metabolism,Protein biosynthesis,Translation initiation factors bacterial,Translation initiation factor 1,fig|1246955.5.peg.51
+Protein Metabolism,Protein biosynthesis,Translation initiation factors bacterial,Methionyl-tRNA formyltransferase (EC 2.1.2.9),fig|1246955.5.peg.434
+Protein Metabolism,Protein biosynthesis,Translation initiation factors bacterial,Translation initiation factor 3,fig|1246955.5.peg.113
+Protein Metabolism,Protein biosynthesis,Translation initiation factors bacterial,Translation initiation factor 2,fig|1246955.5.peg.657
+Protein Metabolism,Protein biosynthesis,Translation initiation factors bacterial,Ribosome-binding factor A,fig|1246955.5.peg.281
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,"SSU ribosomal protein S18p, zinc-dependent",fig|1246955.5.peg.623
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S11p (S14e),fig|1246955.5.peg.54
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S6p,fig|1246955.5.peg.625
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S15p (S13e),fig|1246955.5.peg.194
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S14p (S29e),fig|1246955.5.peg.173
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S5p (S2e),fig|1246955.5.peg.177
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S18p,fig|1246955.5.peg.623
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S17p (S11e),fig|1246955.5.peg.169
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S20p,fig|1246955.5.peg.651
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S12p (S23e),fig|1246955.5.peg.782
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S9p (S16e),fig|1246955.5.peg.87
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S8p (S15Ae),fig|1246955.5.peg.174
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S4p (S9e),fig|1246955.5.peg.475
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S19p (S15e),fig|1246955.5.peg.164
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S10p (S20e),fig|1246955.5.peg.159
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S16p,fig|1246955.5.peg.4
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S3p (S3e),fig|1246955.5.peg.166
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S7p (S5e),fig|1246955.5.peg.781
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S2p (SAe),fig|1246955.5.peg.416
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,"SSU ribosomal protein S14p (S29e), zinc-dependent",fig|1246955.5.peg.173
+Protein Metabolism,Protein biosynthesis,Ribosome SSU bacterial,SSU ribosomal protein S13p (S18e),fig|1246955.5.peg.53
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Gly",Glycyl-tRNA synthetase (EC 6.1.1.14),fig|1246955.5.peg.448
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Ala",Alanyl-tRNA synthetase (EC 6.1.1.7),fig|1246955.5.peg.126
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Trp",Tryptophanyl-tRNA synthetase (EC 6.1.1.2),fig|1246955.5.peg.526
+Protein Metabolism,Protein biosynthesis,Ribosome biogenesis bacterial,tRNA (Guanine37-N1) -methyltransferase (EC 2.1.1.31),fig|1246955.5.peg.5
+Protein Metabolism,Protein biosynthesis,Ribosome biogenesis bacterial,"TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA",fig|1246955.5.peg.10
+Protein Metabolism,Protein biosynthesis,Ribosome biogenesis bacterial,Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70),fig|1246955.5.peg.92
+Protein Metabolism,Protein biosynthesis,Ribosome biogenesis bacterial,Ribosomal large subunit pseudouridine synthase C (EC 4.2.1.70),fig|1246955.5.peg.294
+Protein Metabolism,Protein biosynthesis,Ribosome biogenesis bacterial,LSU m3Psi1915 methyltransferase RlmH,fig|1246955.5.peg.534
+Protein Metabolism,Protein biosynthesis,Ribosome biogenesis bacterial,SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC 2.1.1.182),fig|1246955.5.peg.33
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L18p (L5e),fig|1246955.5.peg.176
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L11p (L12e),fig|1246955.5.peg.516
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L1p (L10Ae),fig|1246955.5.peg.515
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L3p (L3e),fig|1246955.5.peg.160
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L16p (L10e),fig|1246955.5.peg.167
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L5p (L11e),fig|1246955.5.peg.172
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L23p (L23Ae),fig|1246955.5.peg.162
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L15p (L27Ae),fig|1246955.5.peg.178
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L13p (L13Ae),fig|1246955.5.peg.86
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L14p (L23e),fig|1246955.5.peg.170
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L34p,fig|1246955.5.peg.789
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L22p (L17e),fig|1246955.5.peg.165
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L10p (P0),fig|1246955.5.peg.226
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L9p,fig|1246955.5.peg.612
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L7/L12 (P1/P2),fig|1246955.5.peg.227
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L2p (L8e),fig|1246955.5.peg.163
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L28p,fig|1246955.5.peg.195
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L35p,fig|1246955.5.peg.112
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L19p,fig|1246955.5.peg.6
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L36p,fig|1246955.5.peg.52
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L31p,fig|1246955.5.peg.474
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L33p,fig|1246955.5.peg.725
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L32p,fig|1246955.5.peg.306
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L20p,fig|1246955.5.peg.111
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L17p,fig|1246955.5.peg.56
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L6p (L9e),fig|1246955.5.peg.175
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L21p,fig|1246955.5.peg.363
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L24p (L26e),fig|1246955.5.peg.171
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L29p (L35e),fig|1246955.5.peg.168
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L27p,fig|1246955.5.peg.362
+Protein Metabolism,Protein biosynthesis,Ribosome LSU bacterial,LSU ribosomal protein L4p (L1e),fig|1246955.5.peg.161
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Cys",Cysteinyl-tRNA synthetase (EC 6.1.1.16),fig|1246955.5.peg.634
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,"Protein-N(5)-glutamine methyltransferase PrmC, methylates polypeptide chain release factors RF1 and RF2",fig|1246955.5.peg.402
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,Ribosome recycling factor,fig|1246955.5.peg.28
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,Peptidyl-tRNA hydrolase (EC 3.1.1.29),fig|1246955.5.peg.797
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,Peptide deformylase (EC 3.5.1.88),fig|1246955.5.peg.18
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,Methionine aminopeptidase (EC 3.4.11.18),fig|1246955.5.peg.50
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,tmRNA-binding protein SmpB,fig|1246955.5.peg.642
+Protein Metabolism,Protein biosynthesis,Translation termination factors bacterial,Peptide chain release factor 1,fig|1246955.5.peg.403
+Protein Metabolism,Protein biosynthesis,Universal GTPases,"Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)",fig|1246955.5.peg.91
+Protein Metabolism,Protein biosynthesis,Universal GTPases,GTP-binding protein EngA,fig|1246955.5.peg.757
+Protein Metabolism,Protein biosynthesis,Universal GTPases,Translation elongation factor G,fig|1246955.5.peg.780
+Protein Metabolism,Protein biosynthesis,Universal GTPases,Signal recognition particle receptor protein FtsY (=alpha subunit) (TC 3.A.5.1.1),fig|1246955.5.peg.60
+Protein Metabolism,Protein biosynthesis,Universal GTPases,GTP-binding protein Era,fig|1246955.5.peg.520
+Protein Metabolism,Protein biosynthesis,Universal GTPases,50S ribosomal subunit maturation GTPase RbgA (B. subtilis YlqF),fig|1246955.5.peg.741
+Protein Metabolism,Protein biosynthesis,Universal GTPases,GTPase and tRNA-U34 5-formylation enzyme TrmE,fig|1246955.5.peg.31
+Protein Metabolism,Protein biosynthesis,Universal GTPases,Translation elongation factor LepA,fig|1246955.5.peg.687
+Protein Metabolism,Protein biosynthesis,Universal GTPases,Translation elongation factor Tu,fig|1246955.5.peg.746
+Protein Metabolism,Protein biosynthesis,Universal GTPases,GTP-binding and nucleic acid-binding protein YchF,fig|1246955.5.peg.445
+Protein Metabolism,Protein biosynthesis,Universal GTPases,Translation initiation factor 2,fig|1246955.5.peg.657
+Protein Metabolism,Protein biosynthesis,Universal GTPases,Ribosome small subunit-stimulated GTPase EngC,fig|1246955.5.peg.187
+Protein Metabolism,Protein biosynthesis,Universal GTPases,GTP-binding protein EngB,fig|1246955.5.peg.722
+Protein Metabolism,Protein biosynthesis,Universal GTPases,GTP-binding protein Obg,fig|1246955.5.peg.341
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, His",Histidyl-tRNA synthetase (EC 6.1.1.21),fig|1246955.5.peg.114
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Asp and Asn",Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6),fig|1246955.5.peg.295
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Asp and Asn",Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6),fig|1246955.5.peg.297
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Asp and Asn",Aspartyl-tRNA synthetase (EC 6.1.1.12),"fig|1246955.5.peg.115, fig|1246955.5.peg.487"
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Asp and Asn",Asparaginyl-tRNA synthetase (EC 6.1.1.22),fig|1246955.5.peg.404
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Asp and Asn",Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6),fig|1246955.5.peg.296
+Protein Metabolism,Protein biosynthesis,Translation elongation factors bacterial,Translation elongation factor G,fig|1246955.5.peg.780
+Protein Metabolism,Protein biosynthesis,Translation elongation factors bacterial,Translation elongation factor LepA,fig|1246955.5.peg.687
+Protein Metabolism,Protein biosynthesis,Translation elongation factors bacterial,Translation elongation factor Tu,fig|1246955.5.peg.746
+Protein Metabolism,Protein biosynthesis,Translation elongation factors bacterial,Translation elongation factor Ts,fig|1246955.5.peg.417
+Protein Metabolism,Protein biosynthesis,Translation elongation factors bacterial,Translation elongation factor P,fig|1246955.5.peg.233
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Lys",Lysyl-tRNA synthetase (class II) (EC 6.1.1.6),fig|1246955.5.peg.769
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Thr",Threonyl-tRNA synthetase (EC 6.1.1.3),fig|1246955.5.peg.525
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Pro","Prolyl-tRNA synthetase (EC 6.1.1.15), archaeal/eukaryal type",fig|1246955.5.peg.181
+Protein Metabolism,Protein biosynthesis,Translation elongation factor G family,Translation elongation factor G,fig|1246955.5.peg.780
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Glu and Gln",Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7),fig|1246955.5.peg.296
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Glu and Gln",Glutamyl-tRNA synthetase (EC 6.1.1.17),fig|1246955.5.peg.153
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Glu and Gln",Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7),fig|1246955.5.peg.297
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Glu and Gln",Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24),fig|1246955.5.peg.153
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Glu and Gln",Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7),fig|1246955.5.peg.295
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Ser",Seryl-tRNA synthetase (EC 6.1.1.11),fig|1246955.5.peg.790
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Tyr",Tyrosyl-tRNA synthetase (EC 6.1.1.1),fig|1246955.5.peg.14
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Leu",Leucyl-tRNA synthetase (EC 6.1.1.4),fig|1246955.5.peg.340
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Phe",Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20),fig|1246955.5.peg.423
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Phe",Phenylalanyl-tRNA synthetase domain protein (Bsu YtpR),fig|1246955.5.peg.13
+Protein Metabolism,Protein biosynthesis,"tRNA aminoacylation, Phe",Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20),fig|1246955.5.peg.421
+Protein Metabolism,Protein processing and modification,Lipoprotein Biosynthesis,Lipoprotein signal peptidase (EC 3.4.23.36),fig|1246955.5.peg.200
+Protein Metabolism,Protein processing and modification,Lipoprotein Biosynthesis,Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-),fig|1246955.5.peg.763
+Protein Metabolism,Protein processing and modification,Signal peptidase,Lipoprotein signal peptidase (EC 3.4.23.36),fig|1246955.5.peg.200
+Protein Metabolism,Protein processing and modification,Peptide methionine sulfoxide reductase,Peptide methionine sulfoxide reductase MsrA (EC 1.8.4.11),fig|1246955.5.peg.29
+Protein Metabolism,Protein processing and modification,Peptide methionine sulfoxide reductase,Peptide methionine sulfoxide reductase MsrB (EC 1.8.4.12),fig|1246955.5.peg.728
+Protein Metabolism,Protein degradation,Aminopeptidases (EC 3.4.11.-),Cytosol aminopeptidase PepA (EC 3.4.11.1),"fig|1246955.5.peg.738, fig|1246955.5.peg.739"
+Protein Metabolism,Protein degradation,Protein degradation,"Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)",fig|1246955.5.peg.726
+Protein Metabolism,Protein degradation,"Proteolysis in bacteria, ATP-dependent",ClpB protein,"fig|1246955.5.peg.84, fig|1246955.5.peg.326"
+Protein Metabolism,Protein degradation,"Proteolysis in bacteria, ATP-dependent",ATP-dependent protease La (EC 3.4.21.53) Type I,"fig|1246955.5.peg.325, fig|1246955.5.peg.606"
+Cell Division and Cell Cycle,Cell Division and Cell Cycle - no subcategory,YgjD and YeaZ,"TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA",fig|1246955.5.peg.9
+Cell Division and Cell Cycle,Cell Division and Cell Cycle - no subcategory,YgjD and YeaZ,"TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA",fig|1246955.5.peg.10
+Cell Division and Cell Cycle,Cell Division and Cell Cycle - no subcategory,Macromolecular synthesis operon,"TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA",fig|1246955.5.peg.9
+Cell Division and Cell Cycle,Cell Division and Cell Cycle - no subcategory,Macromolecular synthesis operon,RNA polymerase sigma factor RpoD,fig|1246955.5.peg.450
+Cell Division and Cell Cycle,Cell Division and Cell Cycle - no subcategory,Macromolecular synthesis operon,DNA primase (EC 2.7.7.-),fig|1246955.5.peg.449
+Regulation and Cell signaling,Regulation and Cell signaling - no subcategory,HPr catabolite repression system,HPr kinase/phosphorylase (EC 2.7.1.-) (EC 2.7.4.-),fig|1246955.5.peg.762
+DNA Metabolism,DNA repair,Uracil-DNA glycosylase,"Uracil-DNA glycosylase, family 1",fig|1246955.5.peg.422
+DNA Metabolism,DNA repair,"DNA repair, bacterial",Exonuclease SbcC,"fig|1246955.5.peg.276, fig|1246955.5.peg.704"
+DNA Metabolism,DNA repair,"DNA repair, bacterial",Single-stranded DNA-binding protein,fig|1246955.5.peg.624
+DNA Metabolism,DNA repair,"DNA repair, bacterial",Endonuclease IV (EC 3.1.21.2),fig|1246955.5.peg.698
+DNA Metabolism,DNA repair,"DNA repair, bacterial",RecA protein,fig|1246955.5.peg.39
+DNA Metabolism,DNA repair,"DNA repair, bacterial",DNA-cytosine methyltransferase (EC 2.1.1.37),fig|1246955.5.peg.131
+DNA Metabolism,DNA repair,"DNA repair, bacterial",DNA polymerase IV (EC 2.7.7.7),fig|1246955.5.peg.146
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecFOR pathway",RecU Holliday junction resolvase,fig|1246955.5.peg.368
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecFOR pathway",Single-stranded DNA-binding protein,fig|1246955.5.peg.624
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecFOR pathway",Recombination protein RecR,fig|1246955.5.peg.751
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecFOR pathway",RecA protein,fig|1246955.5.peg.39
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecFOR pathway",DNA recombination and repair protein RecO,fig|1246955.5.peg.716
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecBCD pathway",RecD-like DNA helicase YrrC,fig|1246955.5.peg.798
+DNA Metabolism,DNA repair,"DNA repair, bacterial RecBCD pathway",Exodeoxyribonuclease V gamma chain (EC 3.1.11.5),fig|1246955.5.peg.82
+DNA Metabolism,DNA repair,"DNA repair, UvrABC system",Excinuclease ABC subunit C,fig|1246955.5.peg.425
+DNA Metabolism,DNA repair,"DNA repair, UvrABC system",Excinuclease ABC subunit A,fig|1246955.5.peg.761
+DNA Metabolism,DNA repair,"DNA repair, UvrABC system",Excinuclease ABC subunit B,fig|1246955.5.peg.57
+DNA Metabolism,DNA repair,"DNA repair, bacterial UvrD and related helicases",ATP-dependent DNA helicase UvrD/PcrA,fig|1246955.5.peg.441
+DNA Metabolism,DNA repair,DNA Repair Base Excision,"Uracil-DNA glycosylase, family 1",fig|1246955.5.peg.422
+DNA Metabolism,DNA repair,DNA Repair Base Excision,Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23),fig|1246955.5.peg.313
+DNA Metabolism,DNA repair,DNA Repair Base Excision,DNA polymerase I (EC 2.7.7.7),fig|1246955.5.peg.438
+DNA Metabolism,DNA repair,DNA Repair Base Excision,DNA ligase (EC 6.5.1.2),fig|1246955.5.peg.8
+DNA Metabolism,CRISPs,CRISPRs,"CRISPR-associated protein, Csn1 family",fig|1246955.5.peg.768
+DNA Metabolism,CRISPs,CRISPRs,CRISPR-associated protein Cas2,fig|1246955.5.peg.766
+DNA Metabolism,CRISPs,CRISPRs,CRISPR-associated protein Cas1,fig|1246955.5.peg.767
+DNA Metabolism,DNA Metabolism - no subcategory,Type I Restriction-Modification,"Type I restriction-modification system, specificity subunit S (EC 3.1.21.3)","fig|1246955.5.peg.582, fig|1246955.5.peg.585, fig|1246955.5.peg.588, fig|1246955.5.peg.679, fig|1246955.5.peg.771"
+DNA Metabolism,DNA Metabolism - no subcategory,Type I Restriction-Modification,"Type I restriction-modification system, restriction subunit R (EC 3.1.21.3)",fig|1246955.5.peg.586
+DNA Metabolism,DNA Metabolism - no subcategory,Type I Restriction-Modification,"Type I restriction-modification system, DNA-methyltransferase subunit M (EC 2.1.1.72)","fig|1246955.5.peg.482, fig|1246955.5.peg.584, fig|1246955.5.peg.771"
+DNA Metabolism,DNA Metabolism - no subcategory,Restriction-Modification System,"Type I restriction-modification system, specificity subunit S (EC 3.1.21.3)","fig|1246955.5.peg.582, fig|1246955.5.peg.585, fig|1246955.5.peg.588, fig|1246955.5.peg.679, fig|1246955.5.peg.771"
+DNA Metabolism,DNA Metabolism - no subcategory,Restriction-Modification System,"Type I restriction-modification system, restriction subunit R (EC 3.1.21.3)",fig|1246955.5.peg.586
+DNA Metabolism,DNA Metabolism - no subcategory,Restriction-Modification System,"Type I restriction-modification system, DNA-methyltransferase subunit M (EC 2.1.1.72)","fig|1246955.5.peg.482, fig|1246955.5.peg.584, fig|1246955.5.peg.771"
+DNA Metabolism,DNA Metabolism - no subcategory,YcfH,Putative deoxyribonuclease YcfH,fig|1246955.5.peg.32
+DNA Metabolism,DNA Metabolism - no subcategory,"DNA structural proteins, bacterial",Chromosome partition protein smc,"fig|1246955.5.peg.630, fig|1246955.5.peg.711"
+DNA Metabolism,DNA Metabolism - no subcategory,"DNA structural proteins, bacterial",Integration host factor alpha/beta,fig|1246955.5.peg.367
+DNA Metabolism,DNA replication,"DNA topoisomerases, Type I, ATP-independent",DNA topoisomerase I (EC 5.99.1.2),fig|1246955.5.peg.626
+DNA Metabolism,DNA replication,"DNA topoisomerases, Type II, ATP-dependent",DNA gyrase subunit B (EC 5.99.1.3),"fig|1246955.5.peg.639, fig|1246955.5.peg.640"
+DNA Metabolism,DNA replication,"DNA topoisomerases, Type II, ATP-dependent",DNA gyrase subunit A (EC 5.99.1.3),fig|1246955.5.peg.514
+DNA Metabolism,DNA replication,"DNA topoisomerases, Type II, ATP-dependent",Topoisomerase IV subunit B (EC 5.99.1.-),fig|1246955.5.peg.97
+DNA Metabolism,DNA replication,"DNA topoisomerases, Type II, ATP-dependent",Topoisomerase IV subunit A (EC 5.99.1.-),fig|1246955.5.peg.770
+DNA Metabolism,DNA recombination,RuvABC plus a hypothetical,FIG000859: hypothetical protein YebC,fig|1246955.5.peg.609
+DNA Metabolism,DNA recombination,RuvABC plus a hypothetical,Holliday junction DNA helicase RuvA,fig|1246955.5.peg.307
+DNA Metabolism,DNA recombination,RuvABC plus a hypothetical,Holliday junction DNA helicase RuvB,fig|1246955.5.peg.308
+DNA Metabolism,"DNA uptake, competence",DNA processing cluster,FIG000557: hypothetical protein co-occurring with RecR,fig|1246955.5.peg.752
+DNA Metabolism,"DNA uptake, competence",DNA processing cluster,Recombination protein RecR,fig|1246955.5.peg.751
+DNA Metabolism,"DNA uptake, competence",DNA processing cluster,DNA polymerase III subunits gamma and tau (EC 2.7.7.7),fig|1246955.5.peg.753
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Cardiolipin synthesis,Cardiolipin synthetase (EC 2.7.8.-),fig|1246955.5.peg.452
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY,fig|1246955.5.peg.19
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51),fig|1246955.5.peg.358
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3),fig|1246955.5.peg.473
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5),fig|1246955.5.peg.415
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94),fig|1246955.5.peg.649
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Glycerol kinase (EC 2.7.1.30),fig|1246955.5.peg.472
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Aldehyde dehydrogenase (EC 1.2.1.3),fig|1246955.5.peg.76
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Cardiolipin synthetase (EC 2.7.8.-),fig|1246955.5.peg.452
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Dihydroxyacetone kinase family protein,fig|1246955.5.peg.714
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Phosphatidate cytidylyltransferase (EC 2.7.7.41),fig|1246955.5.peg.35
+"Fatty Acids, Lipids, and Isoprenoids",Phospholipids,Glycerolipid and Glycerophospholipid Metabolism in Bacteria,Phosphate:acyl-ACP acyltransferase PlsX,fig|1246955.5.peg.713
+Dormancy and Sporulation,Dormancy and Sporulation - no subcategory,Sporulation-associated proteins with broader functions,Peptidyl-tRNA hydrolase (EC 3.1.1.29),fig|1246955.5.peg.797
+Respiration,Electron donating reactions,Respiratory dehydrogenases 1,Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3),fig|1246955.5.peg.473
+Stress Response,Osmotic stress,Osmoregulation,Aquaporin Z,fig|1246955.5.peg.563
+Stress Response,Osmotic stress,Osmoregulation,Glycerol uptake facilitator protein,fig|1246955.5.peg.471
+Stress Response,Oxidative stress,Oxidative stress,Iron-binding ferritin-like antioxidant protein,fig|1246955.5.peg.489
+Stress Response,Oxidative stress,Oxidative stress,Non-specific DNA-binding protein Dps,fig|1246955.5.peg.489
+Stress Response,Oxidative stress,Oxidative stress,Ferroxidase (EC 1.16.3.1),fig|1246955.5.peg.489
+Stress Response,Oxidative stress,Cluster containing Glutathione synthetase,Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-),fig|1246955.5.peg.250
+Stress Response,Oxidative stress,Cluster containing Glutathione synthetase,Putative Holliday junction resolvase YggF,fig|1246955.5.peg.127
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,Heat shock protein GrpE,fig|1246955.5.peg.272
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,Heat-inducible transcription repressor HrcA,fig|1246955.5.peg.271
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,Chaperone protein DnaK,fig|1246955.5.peg.273
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,Translation elongation factor LepA,fig|1246955.5.peg.687
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,Chaperone protein DnaJ,fig|1246955.5.peg.670
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-),fig|1246955.5.peg.250
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,tmRNA-binding protein SmpB,fig|1246955.5.peg.642
+Stress Response,Heat shock,Heat shock dnaK gene cluster extended,rRNA small subunit methyltransferase I,fig|1246955.5.peg.748
+Amino Acids and Derivatives,"Glutamine, glutamate, aspartate, asparagine; ammonia assimilation","Glutamine, Glutamate, Aspartate and Asparagine Biosynthesis",Aspartate--ammonia ligase (EC 6.3.1.1),fig|1246955.5.peg.652
+Amino Acids and Derivatives,"Arginine; urea cycle, polyamines",Polyamine Metabolism,Putrescine transport ATP-binding protein PotA (TC 3.A.1.11.1),fig|1246955.5.peg.622
+Amino Acids and Derivatives,"Arginine; urea cycle, polyamines",Polyamine Metabolism,Spermidine Putrescine ABC transporter permease component potC (TC_3.A.1.11.1),fig|1246955.5.peg.620
+Amino Acids and Derivatives,"Arginine; urea cycle, polyamines",Polyamine Metabolism,Probable spermidine/putrescine substrate binding protein in Mollicutes,"fig|1246955.5.peg.377, fig|1246955.5.peg.619"
+Amino Acids and Derivatives,"Arginine; urea cycle, polyamines",Polyamine Metabolism,Spermidine Putrescine ABC transporter permease component PotB (TC 3.A.1.11.1),fig|1246955.5.peg.621
+Amino Acids and Derivatives,"Alanine, serine, and glycine",Glycine Biosynthesis,Serine hydroxymethyltransferase (EC 2.1.2.1),fig|1246955.5.peg.420
+Amino Acids and Derivatives,"Alanine, serine, and glycine",Alanine biosynthesis,"Cysteine desulfurase (EC 2.8.1.7), SufS subfamily",fig|1246955.5.peg.144
+Amino Acids and Derivatives,"Alanine, serine, and glycine",Serine Biosynthesis,Serine hydroxymethyltransferase (EC 2.1.2.1),fig|1246955.5.peg.420
+Sulfur Metabolism,Sulfur Metabolism - no subcategory,Thioredoxin-disulfide reductase,Thioredoxin reductase (EC 1.8.1.9),fig|1246955.5.peg.764
+Sulfur Metabolism,Sulfur Metabolism - no subcategory,Galactosylceramide and Sulfatide metabolism,Beta-galactosidase (EC 3.2.1.23),"fig|1246955.5.peg.40, fig|1246955.5.peg.47, fig|1246955.5.peg.235, fig|1246955.5.peg.579, fig|1246955.5.peg.581"
+Sulfur Metabolism,Sulfur Metabolism - no subcategory,Galactosylceramide and Sulfatide metabolism,Sialidase (EC 3.2.1.18),"fig|1246955.5.peg.351, fig|1246955.5.peg.352, fig|1246955.5.peg.643"
+Phosphorus Metabolism,Phosphorus Metabolism - no subcategory,Phosphate metabolism,Inorganic pyrophosphatase (EC 3.6.1.1),fig|1246955.5.peg.724
+Phosphorus Metabolism,Phosphorus Metabolism - no subcategory,Phosphate metabolism,Sodium-dependent phosphate transporter,fig|1246955.5.peg.731
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Aldehyde dehydrogenase (EC 1.2.1.3),fig|1246955.5.peg.76
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1),fig|1246955.5.peg.461
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12),fig|1246955.5.peg.460
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Phosphate acetyltransferase (EC 2.3.1.8),fig|1246955.5.peg.467
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4),fig|1246955.5.peg.459
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Acetate kinase (EC 2.7.2.1),fig|1246955.5.peg.720
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate",Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1),fig|1246955.5.peg.462
+Carbohydrates,Central carbohydrate metabolism,"Pyruvate metabolism I: anaplerotic reactions, PEP",Pyruvate kinase (EC 2.7.1.40),"fig|1246955.5.peg.98, fig|1246955.5.peg.102"
+Carbohydrates,Central carbohydrate metabolism,Pentose phosphate pathway,Transketolase (EC 2.2.1.1),fig|1246955.5.peg.241
+Carbohydrates,Central carbohydrate metabolism,Pentose phosphate pathway,Ribose-phosphate pyrophosphokinase (EC 2.7.6.1),fig|1246955.5.peg.95
+Carbohydrates,Central carbohydrate metabolism,Pentose phosphate pathway,Ribose 5-phosphate isomerase B (EC 5.3.1.6),fig|1246955.5.peg.706
+Carbohydrates,Central carbohydrate metabolism,Pentose phosphate pathway,Ribulose-phosphate 3-epimerase (EC 5.1.3.1),"fig|1246955.5.peg.186, fig|1246955.5.peg.248"
+Carbohydrates,Central carbohydrate metabolism,Dihydroxyacetone kinases,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM",fig|1246955.5.peg.468
+Carbohydrates,Central carbohydrate metabolism,Dihydroxyacetone kinases,DHA-specific IIA component,fig|1246955.5.peg.468
+Carbohydrates,Central carbohydrate metabolism,Dihydroxyacetone kinases,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL",fig|1246955.5.peg.469
+Carbohydrates,Central carbohydrate metabolism,Dihydroxyacetone kinases,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK",fig|1246955.5.peg.470
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,6-phosphofructokinase (EC 2.7.1.11),fig|1246955.5.peg.497
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,Triosephosphate isomerase (EC 5.3.1.1),fig|1246955.5.peg.369
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,Fructose-bisphosphate aldolase class II (EC 4.1.2.13),fig|1246955.5.peg.637
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",fig|1246955.5.peg.618
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,Pyruvate kinase (EC 2.7.1.40),"fig|1246955.5.peg.98, fig|1246955.5.peg.102"
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,Phosphoglycerate kinase (EC 2.7.2.3),fig|1246955.5.peg.496
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12),fig|1246955.5.peg.433
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,Glucose-6-phosphate isomerase (EC 5.3.1.9),"fig|1246955.5.peg.382, fig|1246955.5.peg.506"
+Carbohydrates,Central carbohydrate metabolism,Glycolysis and Gluconeogenesis,Enolase (EC 4.2.1.11),fig|1246955.5.peg.34
+Carbohydrates,Central carbohydrate metabolism,Dehydrogenase complexes,Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1),fig|1246955.5.peg.461
+Carbohydrates,Central carbohydrate metabolism,Dehydrogenase complexes,Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12),fig|1246955.5.peg.460
+Carbohydrates,Central carbohydrate metabolism,Dehydrogenase complexes,Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1),fig|1246955.5.peg.462
+Carbohydrates,Central carbohydrate metabolism,Dehydrogenase complexes,Cytosol aminopeptidase PepA (EC 3.4.11.1),"fig|1246955.5.peg.738, fig|1246955.5.peg.739"
+Carbohydrates,Aminosugars,Chitin and N-acetylglucosamine utilization,"PTS system, N-acetylglucosamine-specific IIB component (EC 2.7.1.69)","fig|1246955.5.peg.120, fig|1246955.5.peg.208, fig|1246955.5.peg.662"
+Carbohydrates,Aminosugars,Chitin and N-acetylglucosamine utilization,"PTS system, N-acetylglucosamine-specific IIA component (EC 2.7.1.69)","fig|1246955.5.peg.120, fig|1246955.5.peg.662"
+Carbohydrates,Aminosugars,Chitin and N-acetylglucosamine utilization,Glucosamine-6-phosphate deaminase (EC 3.5.99.6),fig|1246955.5.peg.204
+Carbohydrates,Aminosugars,Chitin and N-acetylglucosamine utilization,Beta-hexosaminidase (EC 3.2.1.52),"fig|1246955.5.peg.304, fig|1246955.5.peg.692, fig|1246955.5.peg.702, fig|1246955.5.peg.703"
+Carbohydrates,Aminosugars,Chitin and N-acetylglucosamine utilization,"PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)","fig|1246955.5.peg.120, fig|1246955.5.peg.208, fig|1246955.5.peg.662"
+Carbohydrates,Aminosugars,Chitin and N-acetylglucosamine utilization,N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25),fig|1246955.5.peg.205
+Carbohydrates,Di- and oligosaccharides,Trehalose Biosynthesis,Alpha-amylase (EC 3.2.1.1),"fig|1246955.5.peg.20, fig|1246955.5.peg.23, fig|1246955.5.peg.24, fig|1246955.5.peg.65"
+Carbohydrates,Di- and oligosaccharides,Trehalose Biosynthesis,Trehalose phosphorylase (EC 2.4.1.64),fig|1246955.5.peg.79
+Carbohydrates,Di- and oligosaccharides,Trehalose Biosynthesis,Glycogen debranching enzyme (EC 3.2.1.-),fig|1246955.5.peg.77
+Carbohydrates,Di- and oligosaccharides,Trehalose Uptake and Utilization,Trehalose-6-phosphate hydrolase (EC 3.2.1.93),fig|1246955.5.peg.78
+Carbohydrates,Di- and oligosaccharides,Trehalose Uptake and Utilization,Trehalose phosphorylase (EC 2.4.1.64),fig|1246955.5.peg.79
+Carbohydrates,Di- and oligosaccharides,Trehalose Uptake and Utilization,Beta-phosphoglucomutase (EC 5.4.2.6),fig|1246955.5.peg.80
+Carbohydrates,Di- and oligosaccharides,Trehalose Uptake and Utilization,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",fig|1246955.5.peg.678
+Carbohydrates,Di- and oligosaccharides,Lactose utilization,Beta-galactosidase (EC 3.2.1.23),"fig|1246955.5.peg.40, fig|1246955.5.peg.47, fig|1246955.5.peg.235, fig|1246955.5.peg.579, fig|1246955.5.peg.581"
+Carbohydrates,One-carbon Metabolism,One-carbon metabolism by tetrahydropterines,Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5),fig|1246955.5.peg.498
+Carbohydrates,One-carbon Metabolism,One-carbon metabolism by tetrahydropterines,Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9),fig|1246955.5.peg.498
+Carbohydrates,Fermentation,Fermentations: Lactate,D-lactate dehydrogenase (EC 1.1.1.28),"fig|1246955.5.peg.180, fig|1246955.5.peg.564"
+Carbohydrates,Fermentation,Fermentations: Lactate,Phosphate acetyltransferase (EC 2.3.1.8),fig|1246955.5.peg.467
+Carbohydrates,Fermentation,Fermentations: Lactate,Acetate kinase (EC 2.7.2.1),fig|1246955.5.peg.720
+Carbohydrates,Sugar alcohols,Glycerol and Glycerol-3-phosphate Uptake and Utilization,Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3),fig|1246955.5.peg.473
+Carbohydrates,Sugar alcohols,Glycerol and Glycerol-3-phosphate Uptake and Utilization,Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94),fig|1246955.5.peg.649
+Carbohydrates,Sugar alcohols,Glycerol and Glycerol-3-phosphate Uptake and Utilization,Glycerol kinase (EC 2.7.1.30),fig|1246955.5.peg.472
+Carbohydrates,Sugar alcohols,Glycerol and Glycerol-3-phosphate Uptake and Utilization,Glycerol uptake facilitator protein,fig|1246955.5.peg.471
+Carbohydrates,Monosaccharides,Mannose Metabolism,Mannose-6-phosphate isomerase (EC 5.3.1.8),fig|1246955.5.peg.240
+Carbohydrates,Monosaccharides,Deoxyribose and Deoxynucleoside Catabolism,Purine nucleoside phosphorylase (EC 2.4.2.1),fig|1246955.5.peg.314
+Carbohydrates,Monosaccharides,Deoxyribose and Deoxynucleoside Catabolism,Phosphopentomutase (EC 5.4.2.7),fig|1246955.5.peg.628
+Carbohydrates,Monosaccharides,Deoxyribose and Deoxynucleoside Catabolism,Pyrimidine-nucleoside phosphorylase (EC 2.4.2.2),fig|1246955.5.peg.315
+Carbohydrates,Monosaccharides,Deoxyribose and Deoxynucleoside Catabolism,Deoxyribose-phosphate aldolase (EC 4.1.2.4),fig|1246955.5.peg.316
+Carbohydrates,Monosaccharides,L-ascorbate utilization (and related gene clusters),L-ribulose-5-phosphate 4-epimerase (EC 5.1.3.4),fig|1246955.5.peg.211
+Carbohydrates,Monosaccharides,L-ascorbate utilization (and related gene clusters),3-keto-L-gulonate 6-phosphate decarboxylase,fig|1246955.5.peg.213
+Carbohydrates,Monosaccharides,L-ascorbate utilization (and related gene clusters),L-xylulose 5-phosphate 3-epimerase (EC 5.1.3.-),fig|1246955.5.peg.212
+Carbohydrates,Monosaccharides,L-ascorbate utilization (and related gene clusters),"Ascorbate-specific PTS system, EIIA component (EC 2.7.1.-)",fig|1246955.5.peg.214
+Carbohydrates,Monosaccharides,L-ascorbate utilization (and related gene clusters),"Ascorbate-specific PTS system, EIIC component",fig|1246955.5.peg.216
