@@ -1,5 +1,5 @@
 |Species Letter|Species|NCBI_Tax_ID|GenBank Archive ID|Version Date|Sample Purity|Host/Origin|Tissue|Further description|Reference/Resource|PFAM|COG|KEGG|RAST|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |A|Mycoplasma_agalactiae|347257|GCF_000063605.1|01.jun.2016|Monoisolate|Mammals|Skin|mammary glands|https://gold.jgi.doe.gov/project?id=Gp0000139|Yes|Yes|Yes|Yes|
 |A|Mycoplasma_alvi_ATCC29626|1408453|GCA_000701785.1|NA|NA|Mammals|Intestine|Reproductive Tract|https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-27-2-86|Yes|Yes|Yes|
 |A|Mycoplasma_arginini|2094|GCF_001547975.1|02.feb.2020|Monoisolate|Mammals|Respiratory system|blood, mammary glands|https://www.ncbi.nlm.nih.gov/pubmed/1520790|Yes|Yes|Yes|Yes|
