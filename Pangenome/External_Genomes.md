@@ -16,7 +16,7 @@
 |C|__Mycoplasma_cynos_C142__|1246955|GCA_000328725.1|31.may.2016|Monoisolate|Mammals|Respiratory system|Isolated from the tracheal wash of a dog in the United States.|https://mra.asm.org/content/1/1/e00196-12|Yes|Yes|Yes|Yes|
 |D|__Mycoplasma_dispar_ATCC_27140__|86660|GCA_000941075.1|01.jun.2016|Monoisolate|Mammals|Respiratory system||https://www.ncbi.nlm.nih.gov/pubmed/30533671|Yes|Yes|Yes|Yes|
 |D|__Ureaplasma_diversum_NCTC_246__|1188241|GCA_000731915.1|01.jun.2016|Monoisolate|Mammals|Reproductive Tract||https://services.cbib.u-bordeaux.fr/molligen4/#!/stats/5cf9009ed1b1aacae9778621|Yes|Yes|Yes|
-|F|__Mycoplasma_fermentans_JER|637387|GCA_000148625.1|01.jun.2016|Monoisolate|Mammals|Reproductive Tract||https://www.ncbi.nlm.nih.gov/pubmed/21109561|Yes|Yes|Yes|Yes|
+|F|__Mycoplasma_fermentans_JER__|637387|GCA_000148625.1|01.jun.2016|Monoisolate|Mammals|Reproductive Tract||https://www.ncbi.nlm.nih.gov/pubmed/21109561|Yes|Yes|Yes|Yes|
 |F|__Mycoplasma_flocculare__|1004152|GCA_000367185.1|01.jun.2016|Monoisolate|Mammals|Respiratory system||https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23497205/?tool=EBI|Yes|Yes|Yes|Yes|
 |G|__Mycoplasma_gallisepticum__|710128|GCF_000025365.1|09.Feb.2020|Monoisolate|Avians|Respiratory system||https://www.ncbi.nlm.nih.gov/pubmed/20123709|Yes|Yes|Yes|Yes|
 |G|__Mycoplasma_genitalium__|243273|GCA_000027325.1|01.jun.2016|Monoisolate|Mammals|Reproductive Tract|Skin in general|https://www.ncbi.nlm.nih.gov/pubmed/7569993|Yes|Yes|Yes|Yes|
