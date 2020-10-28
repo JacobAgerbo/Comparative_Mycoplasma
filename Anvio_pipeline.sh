@@ -84,7 +84,7 @@ done
 #!/bin/sh
 ### KAIJU on HPC
 module load kaiju/v1.5.0
-makeDB.sh -e -t 20
+makeDB.sh -e -t 20 # only do this once, it takes forever
 
 for a in $contig_list
   do
