@@ -36,7 +36,7 @@
 |M|__Mycoplasma_mycoides__|272632|GCA_000011445.1|01.jun.2016|Monoisolate|Mammals|Respiratory system||https://www.ncbi.nlm.nih.gov/pubmed/14762060|Yes|Yes|Yes|Yes|
 |O|__Mycoplasma_ovipneumoniae_SC01__|997765|GCA_000218525.2|01.jun.2016|Monoisolate|Mammals|Respiratory system||https://www.ncbi.nlm.nih.gov/pubmed/21742877|Yes|Yes|Yes|Yes|
 |P|__Mycoplasma_penetrans_HF-2__|272633|GCA_000011225.1|31.may.2016|Monoisolate|Mammals|Intestine|Respiratory system,Reproductive Tract|https://academic.oup.com/nar/article/30/23/5293/1051875|Yes|Yes|Yes|Yes|
-|P|__Mycoplasma_phocidae|142651__|GCA_003332325.1|23.jul.2018|Monoisolate|Mammals|Respiratory system||https://mra.asm.org/content/7/14/e01237-18|Yes|Yes|Yes|Yes|
+|P|__Mycoplasma_phocidae__|142651|GCA_003332325.1|23.jul.2018|Monoisolate|Mammals|Respiratory system||https://mra.asm.org/content/7/14/e01237-18|Yes|Yes|Yes|Yes|
 |P|__Mycoplasma_pirum_ATCC_25960__|1408467|GCF_000685905.1|08.aug.2014|Monoisolate|Mammals|Respiratory system||http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi0051633|Yes|Yes|Yes|Yes|
 |P|__Mycoplasma_pneumoniae_M129__|272634|GCA_000027345.1|04.aug.2014|Monoisolate|Mammals|Respiratory system||https://www.ncbi.nlm.nih.gov/pubmed/12466555|Yes|Yes|Yes|Yes|
 |P|__Mycoplasma_pulmonis_UAB_CTIP__|272635|GCA_000195875.1|31.may.2016|Monoisolate|Mammals|Respiratory system||https://www.ncbi.nlm.nih.gov/pubmed/11353084|Yes|Yes|Yes|Yes|
