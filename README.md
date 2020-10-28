@@ -31,6 +31,7 @@ Will be uploaded ASAP, co-author is unavailable for a week.
 
 ## Comparative Genomics of _Mycoplasma_
 * Curated MAGs and external genomes were analysed, using comparative genomics: http://merenlab.org/2016/11/08/pangenomics-v2/
+* Information, Genbank IDs, about external genome can be found in the pangenome repository
 * Similarities of each amino acid sequence in every genome were calculated against every other amino acid sequence across all genomes, using blastp. minbit heuristics were implemented to eliminate weak matches between two amino acid sequences
 * The MCL algorithms were used to identify gene clusters in amino acid sequence similarity search results
 * Euclidean distance and ward linkage were used to organise gene clusters and genomes. Average Nucleotide Identity (ANI) was calculated, using PyANI
