@@ -1,0 +1,83 @@
+---
+title: "Enrichment_Plot"
+author: "Jacob Agerbo Rasmussen"
+date: "9/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(plotly)
+library(readxl)
+library(corrplot)
+library(reshape2)
+library(plotly)
+library(dplyr)
+library(RColorBrewer)
+library(psych)
+library(ggdendro)
+library(ggpubr)
+library(ggridges)
+library(EnhancedVolcano)
+
+KEGG <- read_excel("KEGG_Intestine.xlsx")
+GC <- read_excel("GC_Intestine.xlsx")
+PFAM <- read_excel("PFAM_Intestine.xlsx")
+```
+
+````{r}
+
+### Volcano plot
+pdf("test.pdf", width = 21, height = 7.5)
+EnhancedVolcano(KEGG,
+                lab = KEGG$KeggGhostKoala,
+                x = 'enrichment_score',
+                y = 'adjusted_q_value',
+                title = 'Enrichment Analysis across Mycoplasma',
+                subtitle = "KEGG",
+    xlab = "Enrichment",
+    ylab = bquote(~-Log[10]~ 'Adj. q-value'),
+    pCutoff = 0.05,
+    FCcutoff = 2.0,
+    pointSize = 4.0,
+    labSize = 6.0,
+    labCol = 'black',
+    labFace = 'bold',
+    boxedLabels = TRUE,
+    colAlpha = 4/5,
+    legendPosition = 'right',
+    legendLabSize = 14,
+    legendIconSize = 4.0,
+    drawConnectors = TRUE,
+    widthConnectors = 1.0,
+    colConnectors = 'black')
+
+EnhancedVolcano(PFAM,
+                lab = PFAM$Pfam,
+                x = 'enrichment_score',
+                y = 'adjusted_q_value',
+                title = 'Enrichment Analysis across Mycoplasma',
+                subtitle = "PFAM",
+    xlab = "Enrichment",
+    ylab = bquote(~-Log[10]~ 'Adj. q-value'),
+    pCutoff = 0.05,
+    FCcutoff = 2.0,
+    pointSize = 4.0,
+    labSize = 6.0,
+    labCol = 'black',
+    labFace = 'bold',
+    boxedLabels = TRUE,
+    colAlpha = 4/5,
+    legendPosition = 'right',
+    legendLabSize = 14,
+    legendIconSize = 4.0,
+    drawConnectors = TRUE,
+    widthConnectors = 1.0,
+    colConnectors = 'black')
+
+dev.off()
+```
