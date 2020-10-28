@@ -1,0 +1,50 @@
+genome_id	Genome	Host	Environment	Intestine	Type	Salmonid
+Candidatus_Mycoplasma_lavaretus	Candidatus Mycoplasma lavaretus	Fish	Intestine	Yes	Commensal	Yes
+Candidatus_Mycoplasma_salmoninae_mykiss	Candidatus Mycoplasma salmoninae mykiss	Fish	Intestine	Yes	Commensal	Yes
+Candidatus_Mycoplasma_salmoninae_salar	Candidatus Mycoplasma salmoninae salar	Fish	Intestine	Yes	Commensal	Yes
+Mycoplasma_agalactiae	Mycoplasma agalactiae	Mammals	Skin	No	Obligate Pathogen	No
+Mycoplasma_alvi_ATCC29626	Mycoplasma alvi ATCC29626	Mammals	Intestine	Yes	Obligate Pathogen	No
+Mycoplasma_arginini	Mycoplasma arginini	Mammals	Respiratory system	Yes	Obligate Pathogen	No
+Mycoplasma_arthritidis_158L3_1	Mycoplasma arthritidis 158L3-1	Mammals	Reproductive Tract	Yes	Obligate Pathogen	No
+Mycoplasma_bovis_PG45	Mycoplasma bovis PG45	Mammals	Skin	No	Obligate Pathogen	No
+Mycoplasma_bovoculi	Mycoplasma bovoculi	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_canis_PG14	Mycoplasma canis PG14	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_capricolum_M1601	Mycoplasma capricolum M1601	Mammals	Skin	No	Obligate Pathogen	No
+Mycoplasma_cloacale	Mycoplasma cloacale	Avians	Urinary system	Yes	Obligate Pathogen	No
+Mycoplasma_columbinum_SF7	Mycoplasma columbinum SF7	Avians	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_collis_ATCC35278	Mycoplasma collis ATCC35278	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_conjunctivae_HRC581	Mycoplasma conjunctivae HRC581	Mammals	Ocular	No	Obligate Pathogen	No
+Mycoplasma_crocodyli	Mycoplasma crocodyli	Reptiles	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_cynos_C142	Mycoplasma cynos C142	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_dispar_ATCC27140	Mycoplasma dispar ATCC 27140	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_fermentans	Mycoplasma fermentans JER	Mammals	Reproductive Tract	Yes	Obligate Pathogen	No
+Mycoplasma_flocculare	Mycoplasma flocculare	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_gallisepticum	Mycoplasma gallisepticum	Avians	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_genitalium	Mycoplasma genitalium	Mammals	Reproductive Tract	No	Obligate Pathogen	No
+Mycoplasma_girerdii_VCU_M1	Mycoplasma girerdii VCU M1	Mammals	Reproductive Tract	No	Obligate Pathogen	No
+Mycoplasma_glycophilum	Mycoplasma glycophilum	Avians	Reproductive Tract	No	Obligate Pathogen	No
+Mycoplasma_haemofelis_Langford	Mycoplasma haemofelis Langford	Mammals	Blood	No	Obligate Pathogen	No
+Mycoplasma_haemofelis_Ohio2	Mycoplasma haemofelis Ohio2	Mammals	Blood	No	Obligate Pathogen	No
+Mycoplasma_hominis	Mycoplasma hominis	Mammals	Urinary system	No	Obligate Pathogen	No
+Mycoplasma_hyopneumoniae	Mycoplasma hyopneumoniae	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_hyorhinis	Mycoplasma hyorhinis	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_iowae	Mycoplasma iowae 695	Avians	Intestine	Yes	Obligate Pathogen	No
+Mycoplasma_leachii	Mycoplasma leachii PG50	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_lipofaciens_ATCC35015	Mycoplasma lipofaciens ATCC35015	Avians	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_meleagridis_ATCC25294	Mycoplasma meleagridis ATCC25294	Avians	Reproductive Tract	Yes	Obligate Pathogen	No
+Mycoplasma_mobile	Mycoplasma mobile 163K	Fish	Gills	No	Obligate Pathogen	No
+Mycoplasma_molare_ATCC27746	Mycoplasma molare ATCC27746	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_mycoides	Mycoplasma mycoides	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_ovipneumoniae	Mycoplasma ovipneumoniae SC01	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_penetrans_HF2	Mycoplasma penetrans HF-2	Mammals	Reproductive Tract	No	Obligate Pathogen	No
+Mycoplasma_phocidae	Mycoplasma phocidae	Mammals	Respiratory system	No	Commensal	No
+Mycoplasma_pirum_ATCC_25960	Mycoplasma pirum ATCC 25960	Mammals	Respiratory system	Yes	Obligate Pathogen	No
+Mycoplasma_pneumoniae	Mycoplasma pneumoniae M129	Mammals	Respiratory system	Yes	Obligate Pathogen	No
+Mycoplasma_pulmonis	Mycoplasma pulmonis UAB CTIP	Mammals	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_putrefacians	Mycoplasma putrefaciens KS1	Mammals	Skin	No	Obligate Pathogen	No
+Mycoplasma_suis	Mycoplasma suis Illinois	Mammals	Blood	No	Obligate Pathogen	No
+Mycoplasma_synoviae_53	Mycoplasma synoviae 53	Avians	Respiratory system	No	Obligate Pathogen	No
+Mycoplasma_wenyonii_Massachusetts	Mycoplasma wenyonii Massachusetts	Mammals	Blood	No	Obligate Pathogen	No
+Mycoplasma_yeatsii	Mycoplasma yeatsii	Mammals	Skin	No	Obligate Pathogen	No
+Ureaplasma_diversum_NCTC_246	Ureaplasma diversum NCTC 246	Mammals	Reproductive Tract	Yes	Obligate Pathogen	No
+Ureaplasma_urealyticum_ATCC33699	Ureaplasma urealyticum ATCC33699	Mammals	Reproductive Tract	Yes	Obligate Pathogen	No
