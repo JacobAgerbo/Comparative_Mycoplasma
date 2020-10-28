@@ -45,5 +45,5 @@
 |S|__Mycoplasma_synoviae_53__|262723|GCF_000008245.1|27.dec.2019|Monoisolate|Avians|Respiratory system||http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00282|Yes|Yes|Yes|Yes|
 |U|Ureaplasma_urealyticum_ATCC33699__|NCBI:txid565575|GCA_000021265.1|04.aug.2014|Monoisolate|Mammals|Reproductive Tract|||Yes|Yes|Yes||
 |W|__Mycoplasma_wenyonii_Massachusetts__|1197325|GCA_000277795.1|01.jun.2016|Monoisolate|Mammals|Blood||https://www.ncbi.nlm.nih.gov/pubmed/22965086|Yes|Yes|Yes|Yes|
-|Y|__Mycoplasma_yeatsii|743967__|GCA_000875755.1|10.dec.2017|Monoisolate|Mammals|Skin|Ear|https://www.ncbi.nlm.nih.gov/pubmed/25908137|Yes|Yes|Yes|Yes|
+|Y|__Mycoplasma_yeatsii__|743967|GCA_000875755.1|10.dec.2017|Monoisolate|Mammals|Skin|Ear|https://www.ncbi.nlm.nih.gov/pubmed/25908137|Yes|Yes|Yes|Yes|
 |M|__Bacillus_pumilus_ATCC7061__|NCBI:txid536229|GCA_000172815.1||Monoisolate|Environmental|Soil|Outgroup|Yes|No|No|No|
