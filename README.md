@@ -3,11 +3,11 @@ _Rasmussen et al. 2020b_
 
 Metagenomic pipeline were performed each individual host seperately, inclduing: 
 
-Host|No. individual|Seq Chemistry
---- | --- | --- 
-Rainbow Trout|n =3|  PE150
-Atlantic Salmon|n = 8|PE100
-European Whitefish|n = 1 (three experimental replicates)|PE100
+Host|No. individual|Seq Chemistry | Tissue Type|
+--- | --- | --- | ---
+Rainbow Trout|n =3 |  PE150 | Mid & Distal Gut |
+Atlantic Salmon|n = 8|PE100 | Total Gut |
+European Whitefish|n = 1 (three experimental replicates)|PE100 | Total Gut |
 
 Host filtered metagenomic sequences can be found on ENA archive PRJEB40990.
 
