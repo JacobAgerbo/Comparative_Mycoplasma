@@ -1,0 +1,58 @@
+# 3. Second round of alignment and data filtering
+
+require(phangorn)
+source("trimCols.R")
+source("trimCodons.R")
+
+loci <- grep("fasta", dir("genesUnaligned"), value = T)
+nakedloci <- gsub("[.]fasta", "", loci)
+failedloci <- vector()
+toremove <- strsplit(readLines("alltrees_preTS_treeshrink/alltrees_preTS_RS_0.05.txt"), split = "\t")
+
+for(i in 1:length(loci)){
+
+# Remove taxa rejected by TreeShrink
+      dat <- read.dna(paste0("genesUnaligned/", loci[i]), format = "fasta")
+      dat <- dat[which(!names(dat) %in% toremove[[i]])]
+      if(length(dat) < 4){
+      	failedloci <- c(failedloci, nakedloci[i])
+        print(paste(nakedloci[i], "has been removed due to missing data"))
+        next
+      }
+      if(length(toremove[[i]]) == 0){
+      	system(paste0("cp alignments_preTS/", nakedloci[i], "_macse_NT.fasta alignments_postTS/."))
+      } else {
+      	write.dna(dat, file = paste0("alignments_postTS/", loci[i]), format = "fasta", colsep = "")
+
+# Perform second round of alignment
+      	system(paste0("java -jar ~/Desktop/Software/macse_v2.03.jar -prog alignSequences -seq alignments_postTS/", loci[i], " -out_NT alignments_postTS/", nakedloci[i], "_macse_NT.fasta -out_AA alignments_postTS/", nakedloci[i], "_macse_AA.fasta"))
+      	if(!file.exists(paste0("alignments_postTS/", nakedloci[i], "_macse_NT.fasta"))){
+		print(paste(nakedloci[i], "failed!"))
+		failedloci <- c(failedloci, nakedloci[i])
+		next
+      	}
+      	print(paste(nakedloci[i], "init alignment done"))
+      	system(paste0("java -jar ~/Desktop/Software/macse_v2.03.jar -prog exportAlignment -align alignments_postTS/", nakedloci[i], "_macse_NT.fasta -codonForInternalStop NNN -codonForFinalStop --- -codonForInternalFS --- -charForRemainingFS - -out_NT alignments_postTS/", nakedloci[i], "_macse_NT.fasta -out_AA alignments_postTS/", nakedloci[i], "_macse_AA.fasta"))
+      	print(paste(nakedloci[i], "init alignment exported"))
+      	dat <- read.dna(paste0("alignments_postTS/", nakedloci[i], "_macse_NT.fasta"), format = "fasta")
+
+# Filter by missing data and excess AA heterozygosity
+      	dat <- trimCols(dat, 0.5)
+	dat <- trimCodons(dat, 0.5)
+      	seqstodel <- sapply(rownames(dat), function(x) all(as.character(dat[x,]) %in% c("N", "n", "?", "-", "O", "o", "X", "x")))
+      	if(sum(seqstodel) > 0) dat <- dat[!seqstodel, ]
+      	if(nrow(dat) > 3){
+      		write.dna(dat, file = paste0("alignments_postTS/", nakedloci[i], "_macse_NT.fasta"), format = "fasta", colsep = "")
+      	} else {
+      	        system(paste0("rm alignments_postTS/", nakedloci[i], "_macse_NT.fasta"))
+      		failedloci <- c(failedloci, nakedloci[i])
+      		print(paste(nakedloci[i], "has been removed due to missing data"))
+      		next
+      	}
+      }
+      setwd("alignments_postTS")
+
+# Perform thorough phylogenetic search under best model, including aLRT branch supports
+      system(paste0("~/Desktop/Software/iqtree-1.7-beta9-MacOSX/bin/iqtree -st DNA -m TESTNEW -s ", nakedloci[i], "_macse_NT.fasta -alrt 1000 -nt 4 -redo"))
+      setwd("..")
+}

@@ -1,0 +1,11 @@
+# 2. Taxon filtering using TreeShrink
+
+library(phangorn)
+
+# Read and save gene trees
+trs <- lapply(grep("treefile", dir("alignments_preTS/"), value = T), function(x) read.tree(paste0("alignments_preTS/", x)))
+class(trs) <- "multiPhylo"
+write.tree(trs, file = "alltrees_preTS.trs")
+
+# Run TreeShrink
+system("python ~/Desktop/Software/TreeShrink-master/run_treeshrink.py -m per-gene -t alltrees_preTS.trs")

@@ -1,0 +1,43 @@
+# 1. First round of filtering before TreeShrink
+
+require(phangorn)
+source("trimCols.R")
+source("trimCodons.R")
+
+loci <- grep("fasta", dir("genesUnaligned/"), value = T)
+nakedloci <- gsub("[.]fasta", "", loci)
+failedloci <- vector()
+
+for(i in 1:length(loci)){
+
+# Make first round of alignment
+      system(paste0("java -jar ~/Desktop/Software/macse_v2.03.jar -prog alignSequences -seq genesUnaligned/", loci[i], " -out_NT alignments_preTS/", nakedloci[i], "_macse_NT.fasta -out_AA alignments_preTS/", nakedloci[i], "_macse_AA.fasta"))
+      if(!file.exists(paste0("alignments_preTS/", nakedloci[i], "_macse_NT.fasta"))){
+	print(paste(nakedloci[i], "failed!"))
+	failedloci <- c(failedloci, nakedloci[i])
+	next
+      }
+      print(paste(nakedloci[i], "init alignment done"))
+      system(paste0("java -jar ~/Desktop/Software/macse_v2.03.jar -prog exportAlignment -align alignments_preTS/", nakedloci[i], "_macse_NT.fasta -codonForInternalStop NNN -codonForFinalStop --- -codonForInternalFS --- -charForRemainingFS - -out_NT alignments_preTS/", nakedloci[i], "_macse_NT.fasta -out_AA alignments_preTS/", nakedloci[i], "_macse_AA.fasta"))
+      print(paste(nakedloci[i], "init alignment exported"))
+      dat <- read.dna(paste0("alignments_preTS/", nakedloci[i], "_macse_NT.fasta"), format = "fasta")
+
+# Filter by missing data and excess AA heterozygosity
+      dat <- trimCols(dat, 0.5)
+      dat <- trimCodons(dat, 0.5)
+      seqstodel <- sapply(rownames(dat), function(x) all(as.character(dat[x,]) %in% c("N", "n", "?", "-", "O", "o", "X", "x")))
+      if(sum(seqstodel) > 0) dat <- dat[!seqstodel, ]
+      if(nrow(dat) > 3){
+      	write.dna(dat, file = paste0("alignments_preTS/", nakedloci[i], "_macse_NT.fasta"), format = "fasta", colsep = "")
+      } else {
+      	system(paste0("rm alignments_preTS/", nakedloci[i], "_macse_NT.fasta"))
+      	failedloci <- c(failedloci, nakedloci[i])
+      	print(paste(nakedloci[i], "has been removed due to missing data"))
+      	next
+      }
+      setwd("alignments_preTS")
+
+# Make fast tree for TreeShink assessment
+      system(paste0("~/Desktop/Software/iqtree-1.7-beta9-MacOSX/bin/iqtree -st DNA -m GTR+G -s ", nakedloci[i], "_macse_NT.fasta -fast -redo"))
+      setwd("..")
+}

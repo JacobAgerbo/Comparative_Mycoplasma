@@ -1,0 +1,49 @@
+# 4. Make estimates of "species" trees using ASTRAL (gene trees) and IQ-TREE (concatenated alignment)
+
+require(phangorn)
+source("collapseLowSup.R")
+source("concatenate.R")
+
+# Collect ML gene-trees:
+saturationtab <- read.csv("genesAligned/saturation.test.results.csv", header = T, row.names = 1)
+saturatedlocs <- rownames(saturationtab)[which(saturationtab$Risk_Entropy == "high.risk")]
+trfiles <- grep("[.]treefile", dir("alignments_postTS"), value = T)
+trfiles <- trfiles[-which(trfiles %in% paste0(saturatedlocs, ".treefile"))]
+trs <- lapply(trfiles, function(x) read.tree(paste0("alignments_postTS/", x)))
+class(trs) <- "multiPhylo"
+write.tree(trs, file = "treesAnalyses/alltrees_postTS_cutSaturated.trs")
+
+# Run ASTRAL with raw ML gene-trees:
+
+system(paste0("java -jar ~/Desktop/Software/ASTRAL4.10.11/astral.4.10.11.jar -i treesAnalyses/alltrees_postTS_cutSaturated.trs -o treesAnalyses/alltrees_postTS_astral_cutSaturated.tre"))
+
+# Run ASTRAL collapsing branches with <0.5 support:
+trs50 <- trs
+for(i in 1:length(trs50)) trs50[[i]] <- collapseLowSup(trs50[[i]], 50)
+write.tree(trs50, file = "treesAnalyses/alltrees_collapsed50_postTS_cutSaturated.trs")
+system(paste0("java -jar ~/Desktop/Software/ASTRAL4.10.11/astral.4.10.11.jar -i treesAnalyses/alltrees_collapsed50_postTS_cutSaturated.trs -o treesAnalyses/alltrees_collapsed50_postTS_astral_cutSaturated.tre"))
+
+# Run ASTRAL collapsing branches with <0.9 suppport:
+trs90 <- trs
+for(i in 1:length(trs90)) trs90[[i]] <- collapseLowSup(trs90[[i]], 90)
+write.tree(trs90, file = "treesAnalyses/alltrees_collapsed90_postTS_cutSaturated.trs")
+system(paste0("java -jar ~/Desktop/Software/ASTRAL4.10.11/astral.4.10.11.jar -i treesAnalyses/alltrees_collapsed90_postTS_cutSaturated.trs -o treesAnalyses/alltrees_collapsed90_postTS_astral_cutSaturated.tre"))
+
+# Estimate gene and site concordance factors:
+
+allAls <- lapply(gsub("[.]treefile", "", trfiles), function(x) read.dna(paste0("alignments_postTS/", x), format = "fasta"))
+allAlsC <- concatenate(allAls)
+write.dna(allAlsC, file = "treesAnalyses/al_all_cutSaturated.fasta", format = "fasta", colsep = "")
+system("~/Desktop/Software/iqtree-1.7-beta9-MacOSX/bin/iqtree -t treesAnalyses/alltrees_postTS_astral_cutSaturated.tre --gcf treesAnalyses/alltrees_postTS_cutSaturated.trs -s treesAnalyses/al_all_cutSaturated.fasta --scf 100 --prefix treesAnalyses/concordAstral_cutSaturated")
+
+# Estimate species tree from concatenated alignment (partition by codon position, use proportional branch lengths).
+
+loclens <- sapply(allAls, ncol)
+part <- c("#NEXUS", "begin sets;", "", paste0("charset part1 = 1-", loclens[1], ";"))
+for(i in 2:length(loclens)) part <- c(part, paste0("charset part", i, " = ", sum(loclens[1:(i-1)])+1, "-", sum(loclens[1:(i-1)])+loclens[i], ";"))
+part <- c(part, "end;")
+writeLines(part, con = "treesAnalyses/partitionsAllLoci_cutSaturated.part")
+system("~/Desktop/Software/iqtree-1.7-beta9-MacOSX/bin/iqtree -st DNA -m TESTMERGENEW -s treesAnalyses/al_all_cutSaturated.fasta -alrt 1000 -nt 4 -spp treesAnalyses/partitionsAllLoci_cutSaturated.part -pre treesAnalyses/concatAll_cutSaturated -redo")
+
+# Concordance factors based on IQtree tree:
+system("~/Desktop/Software/iqtree-1.7-beta9-MacOSX/bin/iqtree -t treesAnalyses/concatAll_cutSaturated.treefile --gcf treesAnalyses/alltrees_postTS_cutSaturated.trs -s treesAnalyses/al_all_cutSaturated.fasta --scf 100 --prefix treesAnalyses/concordIQ_cutSaturated")
