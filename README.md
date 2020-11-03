@@ -26,8 +26,9 @@ _Please find information of parameters and modules used in Anvio_pipeline.sh_
 
 _MAGs will be publicaly available on: __figshare__ upon acceptance_
 
-## Phylogenomic of _Mycoplasma_
-Will be uploaded ASAP, co-author is unavailable for a week.
+## Phylogenomics of _Mycoplasma_
+* Core gene sequences underwent cleaning via two rounds of alignment and filtering
+* Three methods of phylogenomic inference were implemented: multispecies coalescent in ASTRAL, maximum likelihood in IQ-TREE, and split decomposition network analysis in SplitsTree4.
 
 ## Comparative Genomics of _Mycoplasma_
 * Curated MAGs and external genomes were analysed, using comparative genomics: http://merenlab.org/2016/11/08/pangenomics-v2/
