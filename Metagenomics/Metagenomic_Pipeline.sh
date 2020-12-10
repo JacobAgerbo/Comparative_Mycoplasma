@@ -127,12 +127,15 @@ done
 mkdir 1-Host_Removal
 cd 1-Host_removal
 
-# 1) Build BWA Host_DB
+# 1) Build minimap Host_DB
 module load samtools/1.9 bedtools/2.28.0 minimap2/2.6
 REF_DIR='<path/to/REF/>'
 FASTA='<path/to/FASTQ/>'
 OUT='<path/to/WD/>'
 
+minimap2 -d ref.mmi $REF_DIR/*
+
+### Filtering with minimap
 cd $FASTA/
 find *.fq > temp
 sed 's/_[1-2]_repaired.fq//g' temp > temp2
