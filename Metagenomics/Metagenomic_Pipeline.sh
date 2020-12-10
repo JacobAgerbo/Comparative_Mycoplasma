@@ -128,65 +128,88 @@ mkdir 1-Host_Removal
 cd 1-Host_removal
 
 # 1) Build BWA Host_DB
-module load samtools/1.9 bedtools/2.28.0 bwa/0.7.15
+module load samtools/1.9 bedtools/2.28.0 minimap2/2.6
 REF_DIR='<path/to/REF/>'
-FASTA_DIR='<path/to/FASTQ/>'
-WORK_DIR='<path/to/WD/>'
+FASTA='<path/to/FASTQ/>'
+OUT='<path/to/WD/>'
 
-cd $FASTA_DIR/
+cd $FASTA/
 find *.fq > temp
 sed 's/_[1-2]_repaired.fq//g' temp > temp2
 uniq temp2 > sample_list.txt
 rm -f temp*
 sample_list=$(cat sample_list.txt)
-cd $WORK_DIR
+cd $OUT
 
 #phiX174 filtering
 Ref='phiX174'
-for a in $sample_list
+for stuff in $sample_list
   do
-    bwa mem -t 28 $REF_DIR/$Ref $FASTA_DIR/"$a"_1_repaired.fq $FASTA_DIR/"$a"_2_repaired.fq | samtools view -f 12 -T $REF_DIR/phiX174 -b > $WORK_DIR/noPhiX/"$a"_noPhiX.bam
-    bedtools bamtofastq -i $WORK_DIR/noPhiX/"$a"_noPhiX.bam -fq $WORK_DIR/noPhiX/"$a"_noPhiX_1.fq -fq2 $WORK_DIR/noPhiX/"$a"_noPhiX_2.fq
+    minimap2 -ax sr $REF_DIR/$Ref $FASTA/"$stuff"_1.fastq.gz $FASTA/"$stuff"_2.fastq.gz > "$stuff"_mapped_and_unmapped.sam
+      samtools view -bS $OUT/"$stuff"_mapped_and_unmapped.sam > $OUT/"$stuff"_mapped_and_unmapped.bam
+        rm "$stuff"_mapped_and_unmapped.sam
+          samtools view -b -f 13 -F 1280 $OUT/"$stuff"_mapped_and_unmapped.bam > $OUT/"$stuff"_unmapped.bam
+            rm "$stuff"_mapped_and_unmapped.bam
+              samtools sort -n $OUT/"$stuff"_unmapped.bam -o $OUT/"$stuff"_sorted.bam
+                rm "$stuff"_unmapped.bam
+                  bedtools bamtofastq -i $OUT/"$stuff"_sorted.bam -fq $OUT/"$stuff"_nophiX_1.fastq -fq2 $OUT/"$stuff"_nophiX_2.fastq
+                    pigz -p 40 "$stuff"_nohuman_*.fastq                    
 done
 
 ####  Human filtering
 REF_DIR='<path/to/REF/>'
-FASTA_DIR='<path/to/FASTQ/>'
-WORK_DIR='<path/to/WD/>'
-cd $FASTA_DIR/
+FASTA='<path/to/FASTQ/>'
+OUT='<path/to/WD/>'
+
+cd $FASTA/
 find *.fq > temp
-sed 's/_noPhiX_[1-2].fq//g' temp > temp2
+sed 's/_[1-2]_repaired.fq//g' temp > temp2
 uniq temp2 > sample_list.txt
 rm -f temp*
 sample_list=$(cat sample_list.txt)
-cd $WORK_DIR
+cd $OUT
 
-Ref='human.fna' # human genome HG19
-for a in $sample_list
+#human filtering
+Ref='human.fna'
+for stuff in $sample_list
   do
-    bwa mem -t 20 $REF_DIR/human.fna $FASTA_DIR/"$a"_noPhiX_1.fq $FASTA_DIR/"$a"_noPhiX_2.fq | samtools view -f 12 -T $REF_DIR/human.fna -b > $WORK_DIR/noHuman/"$a"_noHuman.bam
-    bedtools bamtofastq -i $WORK_DIR/noHuman/"$a"_noHuman.bam -fq $WORK_DIR/noHuman/"$a"_noHuman_1.fq -fq2 $WORK_DIR/noHuman/"$a"_noHuman_2.fq
+    minimap2 -ax sr $REF_DIR/$Ref $FASTA/"$stuff"_nophiX_1.fastq.gz $FASTA/"$stuff"_nophiX_2.fastq.gz > "$stuff"_mapped_and_unmapped.sam
+      samtools view -bS $OUT/"$stuff"_mapped_and_unmapped.sam > $OUT/"$stuff"_mapped_and_unmapped.bam
+        rm "$stuff"_mapped_and_unmapped.sam
+          samtools view -b -f 13 -F 1280 $OUT/"$stuff"_mapped_and_unmapped.bam > $OUT/"$stuff"_unmapped.bam
+            rm "$stuff"_mapped_and_unmapped.bam
+              samtools sort -n $OUT/"$stuff"_unmapped.bam -o $OUT/"$stuff"_sorted.bam
+                rm "$stuff"_unmapped.bam
+                  bedtools bamtofastq -i $OUT/"$stuff"_sorted.bam -fq $OUT/"$stuff"_nohuman_1.fastq -fq2 $OUT/"$stuff"_nohuman_2.fastq
+                    pigz -p 40 "$stuff"_nohuman_*.fastq                  
 done
 
 ##### Filter trout
 REF_DIR='<path/to/REF/>'
-FASTA_DIR='<path/to/FASTQ/>'
-WORK_DIR='<path/to/WD/>'
+FASTA='<path/to/FASTQ/>'
+OUT='<path/to/WD/>'
 
-cd $FASTA_DIR/
+cd $FASTA/
 find *.fq > temp
-sed 's/_noPhiX_[1-2].fq//g' temp > temp2
+sed 's/_[1-2]_repaired.fq//g' temp > temp2
 uniq temp2 > sample_list.txt
 rm -f temp*
 sample_list=$(cat sample_list.txt)
-cd $WORK_DIR
+cd $OUT
 
+#Trout filtering
 Ref='Omyk_1.0_genome.fna' # change to other
-
-for a in $sample_list
+for stuff in $sample_list
   do
-    bwa mem -t 28 $REF_DIR/$Ref $FASTA_DIR/"$a"_noPhiX_1.fq $FASTA_DIR/"$a"_noPhiX_2.fq | samtools view -f 13 -T $REF_DIR/human.fna -S -b > $WORK_DIR/noHost/"$a"_noHost.bam
-    bedtools bamtofastq -i $WORK_DIR/noHost/"$a"_noHost.bam -fq $WORK_DIR/noHost/"$a"_noHost_1.fq -fq2 $WORK_DIR/noHost/"$a"_noHost_2.fq
+    minimap2 -ax sr $REF_DIR/$Ref $FASTA/"$stuff"_nohuman_1.fastq.gz $FASTA/"$stuff"_nohuman_2.fastq.gz > "$stuff"_mapped_and_unmapped.sam
+      samtools view -bS $OUT/"$stuff"_mapped_and_unmapped.sam > $OUT/"$stuff"_mapped_and_unmapped.bam
+        rm "$stuff"_mapped_and_unmapped.sam
+          samtools view -b -f 13 -F 1280 $OUT/"$stuff"_mapped_and_unmapped.bam > $OUT/"$stuff"_unmapped.bam
+            rm "$stuff"_mapped_and_unmapped.bam
+              samtools sort -n $OUT/"$stuff"_unmapped.bam -o $OUT/"$stuff"_sorted.bam
+                rm "$stuff"_unmapped.bam
+                  bedtools bamtofastq -i $OUT/"$stuff"_sorted.bam -fq $OUT/"$stuff"_clean_1.fastq -fq2 $OUT/"$stuff"_clean_2.fastq
+                    pigz -p 40 "$stuff"_nohuman_*.fastq
 done
 
 #-------------------------------------------------------------------#
