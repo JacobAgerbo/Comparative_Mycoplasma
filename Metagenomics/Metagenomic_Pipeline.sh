@@ -81,8 +81,15 @@ module load pigz/2.3.4 seqkit/0.7.1
 FASTA_DIR='<path/to/FASTQ/>'
 WORK_DIR='<path/to/WD/>'
 cd $FASTA_DIR/
-find *.fq > temp
-sed 's/_filtered.fq//g' temp > temp2
+
+mkdir 0-raw 
+mkdir 1-filtered
+
+mv *_filtered.fq.gz 1-filtered
+mv *.fq.gz 0-raw
+
+find *.fq.gz > temp
+sed 's/_filtered.fq.gz//g' temp > temp2
 uniq temp2 > sample_list.txt
 rm -f temp*
 sample_list=$(cat sample_list.txt)
