@@ -89,7 +89,7 @@ mv *_filtered.fq.gz 1-filtered
 mv *.fq.gz 0-raw
 
 find *.fq.gz > temp
-sed 's/_filtered.fq.gz//g' temp > temp2
+sed 's/_filtered_[1-2].fq.gz//g' temp > temp2
 uniq temp2 > sample_list.txt
 rm -f temp*
 sample_list=$(cat sample_list.txt)
